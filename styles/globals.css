@@ -195,6 +195,13 @@
   margin-top: 32px;
   padding: auto;
   color: white;
+  border-radius: 8px;
+}
+
+.offer_button_text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .service_media {
@@ -221,4 +228,115 @@
   padding-bottom: 99px;
   padding-left: 128px;
   padding-right: 105px;
+}
+
+.cartegory {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 128px;
+  margin-bottom: 90px;
+}
+
+.cartegory_icon_border {
+  height: 55px;
+  width: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.692);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartegory_texts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tradeMen {
+  margin-top: 128px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.trademen_head {
+  margin-bottom: 16px;
+}
+
+.tradeMen_view {
+  color: #2FA500;
+  margin-top: 128px;
+  font-weight: 600;
+}
+
+.trade_Card {
+  width: 291px;
+  height: 140px;
+  margin-bottom: 18px;
+}
+
+.trade_texts {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.children_care {
+  margin-top: 66px;
+  margin-bottom: 16px;
+}
+
+.childcare_head {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.childcare_view {
+  color: #2FA500;
+  font-weight: 600;
+}
+
+.search {
+  margin-top: 130px;
+}
+
+.testimonial {
+  background-color: #F0FFEB;
+  padding-left: 100px;
+  margin-top: 64px;
+  padding-top: 64px;
+}
+
+.testimonal_header {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.stars {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 13px;
+}
+
+.trust {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.strboy {
+  height: 40px;
+  margin-top: 25px;
 }/*# sourceMappingURL=globals.css.map */
