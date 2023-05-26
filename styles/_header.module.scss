@@ -13,9 +13,11 @@
 
 .sub_header {
     height: 64px;
-    
+    padding-bottom: 50px;
 }
-
+.searching::placeholder {
+    margin-left: 15px;
+  }
 .logo {
     height: 37px;
     margin-top: 28px;
@@ -71,6 +73,7 @@
 
 .post {
     height: 40px;
+    color: white;
     width: 127px;
     font-weight: 600;
     background-color: #2FA500;

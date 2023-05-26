@@ -8,9 +8,9 @@ export default function Header() {
         <div className='flex'>
           <img className='logo' src='./lo.png' />
           <div className='flex headBar'>
-            <input className='' placeholder='Electrician' />
+            <input className='seaching' placeholder='  Electrician' />
             <div className='line'></div>
-            <input className='' placeholder='Locaton or postcode ' />
+            <input className='seaching' placeholder='   Locaton or postcode ' />
           </div>
         </div>
 
@@ -41,7 +41,7 @@ export default function Header() {
             <img className='sub_icon ml-4' width="32" height="32" src="https://img.icons8.com/windows/32/gender-neutral-user.png" alt="gender-neutral-user" />
             <p>Account</p>
           </div>
-          <div className='post'>
+          <div className='post mb-4'>
             <p>+ Post a job</p>
           </div>
         </div>
