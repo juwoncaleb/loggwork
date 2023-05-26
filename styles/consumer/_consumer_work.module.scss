@@ -1,4 +1,6 @@
-.consumer_work_hero{
+$themegreen: #2FA500;
+
+.consumer_work_hero {
     background-image: url('/work_con.png');
     background-size: cover;
     background-position: center;
@@ -8,19 +10,32 @@
     padding-left: 54px;
 
 }
-.consumer_work_text{
+
+
+.consumer_work_text {
     text-align: center;
-   
+
 }
-.consumer_work_head{
+
+
+.consumer_work_head {
     font-weight: 700;
     font-size: 52px;
-    line-height:  64px;
+    line-height: 64px;
 }
-.consumer_work_sub{
+
+.consumer_work_sub {
     font-size: 18px;
     font-weight: 400;
 }
-.cons_button{
-    
+
+.cons_button {
+    width: 169px;
+    height: 48px;
+    background-color: $themegreen;
+    color: white;
+    margin-top: 35px;
+    border-radius: 7px;
 }
+
+

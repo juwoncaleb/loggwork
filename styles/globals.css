@@ -654,4 +654,79 @@
 .consumer_work_sub {
   font-size: 18px;
   font-weight: 400;
+}
+
+.cons_button {
+  width: 169px;
+  height: 48px;
+  background-color: #2FA500;
+  color: white;
+  margin-top: 35px;
+  border-radius: 7px;
+}
+
+.consumer_faq {
+  background-color: #F9FDF7;
+  text-align: center;
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+
+.consumer_faq_head {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.consumer_faq_sub {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.faq_contact {
+  padding-left: 310px;
+  padding-right: 310px;
+}
+
+.faq_tab {
+  width: 406px;
+  background-color: burlywood;
+  height: 48px;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact_form {
+  width: 406px;
+  background-color: burlywood;
+  height: 48px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tog {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.last {
+  margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .faq_contact {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }/*# sourceMappingURL=globals.css.map */
