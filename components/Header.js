@@ -6,7 +6,7 @@ export default function Header() {
       <div className='main_header flex justify-between'>
 
         <div className='flex'>
-          <img className='logo' src='./lo.png' />
+          <img className='logo' src='https://ik.imagekit.io/juwoncaleb/lo_wCz74a4lV.webp?updatedAt=1685112934249' />
           <div className='flex headBar'>
             <input className='seaching' placeholder='  Electrician' />
             <div className='line'></div>

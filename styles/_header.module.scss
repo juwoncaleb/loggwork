@@ -7,17 +7,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.main_header {
- 
+.header {
+    margin-right: 4%;
+    margin-left: 4%;
 }
 
 .sub_header {
     height: 64px;
     padding-bottom: 50px;
 }
+
 .searching::placeholder {
     margin-left: 15px;
-  }
+}
+
 .logo {
     height: 37px;
     margin-top: 28px;
@@ -29,13 +32,15 @@
     height: 48px;
     margin-top: 20px;
 }
-.line{
+
+.line {
     height: 30px;
     margin-right: 10px;
     margin-top: 10px;
     border: 1px solid #DFDFDF;
 
 }
+
 .header_bar {
     height: 40px;
     margin-top: 28px;
@@ -86,7 +91,8 @@
 .account {
     margin-left: 50px;
 }
-.arrow{
+
+.arrow {
     height: 15px;
     width: 15px;
     transform: rotate(-90deg);

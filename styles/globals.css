@@ -6,6 +6,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
 .sub_header {
   height: 64px;
   padding-bottom: 50px;
@@ -104,7 +109,7 @@
   height: 529px;
   padding-left: 100px;
   padding-top: 104px;
-  padding-left: 54px;
+  padding-left: 104px;
 }
 
 .land {
@@ -498,6 +503,7 @@
   height: 48px;
   margin-top: 32px;
   border-radius: 8px;
+  font-weight: 600;
 }
 
 .blog {
@@ -549,4 +555,103 @@
   padding-left: 58px;
   padding-top: 15px;
   font-weight: 500;
+  margin-bottom: 64px;
+}
+
+.footer {
+  background-color: black;
+  padding-top: 64px;
+  padding-left: 82px;
+  padding-right: 54px;
+  padding-bottom: 47px;
+}
+
+.footer_icon {
+  height: 20px;
+  width: 20px;
+}
+
+.footer_sub {
+  font-size: 14px;
+  color: white;
+}
+
+.straight {
+  height: 17px;
+  background-color: #CCCCCC;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1px;
+  margin-top: 1px;
+}
+
+.footer_line {
+  margin-top: 71px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 41px;
+  height: 0.2px;
+  background-color: #CCCCCC;
+}
+
+.btn_footer {
+  width: 185px;
+  height: 50px;
+  color: white;
+  border: white 1px solid;
+  border-radius: 7px;
+  margin-top: 33px;
+  padding-left: 7px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.ft_logo {
+  width: 185px;
+}
+
+.footer_sub {
+  color: #CCCCCC;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.postajpb {
+  padding-left: 50px;
+}
+
+.footer_head {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 52px;
+  color: white;
+}
+
+.logTab {
+  margin-right: 105px;
+}
+
+.consumer_work_hero {
+  background-image: url("/work_con.png");
+  background-size: cover;
+  background-position: center;
+  height: 529px;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 54px;
+}
+
+.consumer_work_text {
+  text-align: center;
+}
+
+.consumer_work_head {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 64px;
+}
+
+.consumer_work_sub {
+  font-size: 18px;
+  font-weight: 400;
 }/*# sourceMappingURL=globals.css.map */
