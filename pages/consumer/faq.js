@@ -308,7 +308,7 @@ export default function Faq() {
             <input className='info_details' />
           </div>
           <div>
-            <p>First name </p>
+            <p>Last name </p>
             <input className='info_details' />
           </div>
         </div>
