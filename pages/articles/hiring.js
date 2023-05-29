@@ -22,9 +22,9 @@ export default function Hiring() {
                     </div>
 
                 </div>
-                <div className='flex justify-center'>
+                <div className='flex justify-center mt-6'>
                     {/* ARTICLE TEXT */}
-                    <div className='article_content'>
+                    <div className='article_content '>
                         <p className='mb-8 key_point'>Finding a babysitter you trust to care for your children can be a daunting task.
                             Here are some tips to help you find the right person for the job:</p>
 
