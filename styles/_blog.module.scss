@@ -45,8 +45,8 @@ $themegreen: #2FA500;
 }
 
 .blog_post {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .nav_Arrow {
@@ -164,8 +164,16 @@ $themegreen: #2FA500;
 }
 
 .blog_list_header {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
+}
+
+.check_list {
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border: #DFDFDF 1px solid;
 }
 
 .blogpost_list {
@@ -209,12 +217,21 @@ $themegreen: #2FA500;
 
 }
 
+.chldfilter {
+    margin-top: 32px;
+}
+
 .blog_button_holder {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.child_filter {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .hiring_small_link {
@@ -225,8 +242,8 @@ $themegreen: #2FA500;
 
 @media only screen and (min-width: 1440px) {
     .blog_post {
-        margin-right: 15%;
-        margin-left: 15%;
+        margin-right: 10%;
+        margin-left: 10%;
 
     }
 }
@@ -249,16 +266,19 @@ $themegreen: #2FA500;
 .share_text {
     margin-bottom: 12px;
 }
-.offer_service{
+
+.offer_service {
     margin-top: 35px;
     padding: 40px 24px;
 }
-.offer_your_services{
+
+.offer_your_services {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 16px;
 }
-.cta_professinal{
+
+.cta_professinal {
     margin-left: auto;
     margin-right: auto;
     padding: auto;
@@ -270,25 +290,39 @@ $themegreen: #2FA500;
     border-radius: 5px;
     width: 244px;
 }
-.professiona_cta{
+
+.professiona_cta {
     background-color: #F6F6F6;
-   
+
 
 }
-.cta_pro_text{
+
+.shade_price {
+    position: relative;
+    bottom: 30px;
+    height: 30px;
+    width: 187px;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cta_pro_text {
     text-align: center;
     font-size: 14px;
     font-weight: 600;
     color: white;
 }
-.offer_your_services_subtext{
+
+.offer_your_services_subtext {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 24px;
 }
-.key_point{
+
+.key_point {
     max-width: 800px;
 }
-.professiona_post{
+
+.professiona_post {
     background-color: #F9FDF7;
 }

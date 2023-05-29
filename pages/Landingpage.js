@@ -339,7 +339,7 @@ export default function Landingpage() {
 
         <div className='area_of_service'>
           <p className='area'>View Home service professionals in your area.</p>
-          <div className='flex justify-between'>
+          <div className='grid grid-cols-6'>
             <div>
               <p className='location'>London</p>
               <p className='location'>Bristol</p>

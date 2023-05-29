@@ -4,9 +4,9 @@ import Footer from '../../components/Footer';
 
 export default function Blog() {
     return (
-        <div className='mt-4'>
+        <div className=''>
             <Header />
-            <div className='blog_div'>
+            <div className='blog_div mt-4'>
                 <div>
                     <p className='blog_header'>Blog & Articles</p>
                     <div className='blog_input flex justify-center mt-6'>
@@ -110,7 +110,7 @@ export default function Blog() {
                     </div>
                     <div>
                         <img src='./../fake.png' />
-                        <p className='blog_list_header mb-2 mt-1'> WHow to Choose the Right .<br /> Home Service Professional for Your Needs</p>
+                        <p className='blog_list_header mb-2 mt-1'> How to Choose the Right .<br /> Home Service Professional for Your Needs</p>
                         <p className='blog_list_sub mb-2'>Loggworks helps you get special offers, <br /> connect you to top vetted an... </p>
                         <div className='flex'>
                             <p className='read'>Read More </p>

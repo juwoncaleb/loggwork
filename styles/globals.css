@@ -245,7 +245,7 @@
   height: 30px;
   position: relative;
   bottom: 30px;
-  width: 187px;
+  width: 205px;
   background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
   border-radius: 0px 0px 5px 5px;
 }
@@ -875,8 +875,8 @@
 }
 
 .blog_post {
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .nav_Arrow {
@@ -992,8 +992,16 @@
 }
 
 .blog_list_header {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
+}
+
+.check_list {
+  border-radius: 4px;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  border: #DFDFDF 1px solid;
 }
 
 .blogpost_list {
@@ -1036,12 +1044,21 @@
   border-radius: 5px;
 }
 
+.chldfilter {
+  margin-top: 32px;
+}
+
 .blog_button_holder {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.child_filter {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .hiring_small_link {
@@ -1052,8 +1069,8 @@
 
 @media only screen and (min-width: 1440px) {
   .blog_post {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
 .article_icon {
@@ -1103,6 +1120,15 @@
   background-color: #F6F6F6;
 }
 
+.shade_price {
+  position: relative;
+  bottom: 30px;
+  height: 30px;
+  width: 187px;
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 0px 0px 5px 5px;
+}
+
 .cta_pro_text {
   text-align: center;
   font-size: 14px;
@@ -1122,4 +1148,11 @@
 
 .professiona_post {
   background-color: #F9FDF7;
+}
+
+.service_head {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 600;
 }/*# sourceMappingURL=globals.css.map */
