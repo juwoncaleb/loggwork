@@ -8,7 +8,7 @@ $themegreen: #2FA500;
     padding-left: 100px;
     padding-top: 104px;
     padding-left: 104px;
-  
+
 }
 
 .land {
@@ -48,7 +48,8 @@ $themegreen: #2FA500;
     margin-right: 10px;
     border: 1px solid #DFDFDF;
 }
-.searchBar::placeholder{
+
+.searchBar::placeholder {
     margin-left: 15px;
 }
 
@@ -102,17 +103,25 @@ $themegreen: #2FA500;
 .card {
     margin-top: 56px;
     margin-bottom: 160px;
+
 }
 
 .card_item {
-    width: 350px;
+    max-width: 350px;
     text-align: left;
+}
+
+.ld_icon {
+    height: 70px;
+    width: 70px;
 }
 
 .card_icon {
     height: 70px;
     width: 70px;
     margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card_header {
@@ -131,7 +140,7 @@ $themegreen: #2FA500;
 .trade {
     height: 280px;
     width: 207px;
-   
+
 
 }
 
@@ -261,14 +270,16 @@ $themegreen: #2FA500;
     margin-top: 128px;
     font-weight: 600;
 }
-.asia_tag{
+
+.asia_tag {
     border-radius: 15px;
     position: relative;
     bottom: 100px;
     width: 250px;
     margin-left: 20px;
 }
-.asia_tag2{
+
+.asia_tag2 {
     border-radius: 15px;
     position: relative;
     bottom: 100px;
@@ -355,7 +366,8 @@ $themegreen: #2FA500;
     margin-top: 64px;
     margin-bottom: 50px;
 }
-@media only screen and (min-width: 1500px){
+
+@media only screen and (min-width: 1500px) {
     .tradeMen_view {
         margin-right: 140px;
     }
@@ -365,6 +377,7 @@ $themegreen: #2FA500;
 
     }
 }
+
 @media only screen and (min-width: 1440px) {
     .land {
         margin-right: 10%;

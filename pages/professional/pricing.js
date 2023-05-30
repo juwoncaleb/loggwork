@@ -102,7 +102,7 @@ export default function Pricing() {
                     </div>
                 </div>
                 <p className='mt-8 mb-8 service_head'>All Services</p>
-                <div className='grid grid-cols-4'>
+                <div className='grid grid-cols-4 mb-14'>
                     <div>
                         <p className='location cursor-pointer'>Plumbing repairs</p>
                         <p className='location cursor-pointer'>Gutter cleaning and repairs</p>

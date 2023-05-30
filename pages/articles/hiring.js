@@ -20,7 +20,6 @@ export default function Hiring() {
                         <p className='article_cartegory'>ADVICE</p>
                         <img className='harmer' src='./../hammer.png' />
                     </div>
-
                 </div>
                 <div className='flex justify-center mt-6'>
                     {/* ARTICLE TEXT */}

@@ -32,9 +32,9 @@ export default function Landingpage() {
 
       <div className='land'>
         <h3 className='secure'>Secured payment and privacy on Loggworks</h3>
-        <div className='card  justify-between flex'>
+        <div className='card abt_h gap-10  grid grid-cols-3'>
           <div>
-            <img className='card_icon' src='./safe.png' />
+            <img className='ld_icon' src='./safe.png' />
             <p className='card_header'>Privacy Protection</p>
             <div className='card_item'>
               <p>You’ll never have to share your personal information with tradesmen or
@@ -44,7 +44,7 @@ export default function Landingpage() {
             </div>
           </div>
           <div>
-            <img className='card_icon' src='./card.png' />
+            <img className='ld_icon' src='./card.png' />
             <p className='card_header'>Payment Protection</p>
             <div className='card_item'>
               <p> All your payments are protected by a highly secure Escrow account.
@@ -52,7 +52,7 @@ export default function Landingpage() {
             </div>
           </div>
           <div>
-            <img className='card_icon' src='./check.png' />
+            <img className='ld_icon' src='./check.png' />
             <p className='card_header'>Trusted Professional</p>
             <div className='card_item'>
               <p>We use the Self-Employed Quality Control Scheme =to comprehensively screen all

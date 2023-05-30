@@ -205,14 +205,21 @@
 }
 
 .card_item {
-  width: 350px;
+  max-width: 350px;
   text-align: left;
+}
+
+.ld_icon {
+  height: 70px;
+  width: 70px;
 }
 
 .card_icon {
   height: 70px;
   width: 70px;
   margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card_header {
@@ -1120,6 +1127,10 @@
   background-color: #F6F6F6;
 }
 
+.plumm {
+  max-width: 600px;
+}
+
 .shade_price {
   position: relative;
   bottom: 30px;
@@ -1155,4 +1166,157 @@
   margin-bottom: 40px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.service_head {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.service_head_text {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.service_sub_text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+.service_consume_head {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section_servi {
+  max-width: 600px;
+}
+
+.introduction_tabs {
+  margin-right: 130px;
+}
+
+.tabs_menu {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.about_img {
+  background-image: url("/family.png");
+  background-size: cover;
+  background-position: center;
+  height: 690px;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+}
+
+.ab_head {
+  margin-top: 56px;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.aboutUs_texts {
+  max-width: 550px;
+  padding-bottom: 64px;
+}
+
+.misson_head {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 56px;
+}
+
+.misson_sub {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 56px;
+}
+
+.misson_block {
+  max-width: 500px;
+}
+
+.abt_rating {
+  background-color: #FFFBF5;
+  margin-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about_value {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.abt_rating {
+  text-align: center;
+}
+
+.sheild {
+  width: 45px;
+  height: 40px;
+}
+
+.greencard {
+  padding-top: 35px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  background-color: #F0FFEB;
+  max-width: 800px;
+}
+
+.greenHead {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.abt_head {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.about_opening_btn {
+  font-size: 16px;
+  font-weight: 500;
+  width: 292px;
+  height: 48px;
+  background-color: #2FA500;
+  margin-top: 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+.abt_join_tetx {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.join_text {
+  font-size: 18px !important;
+}
+
+.about_join_us {
+  padding-top: 64px;
+  background-color: #FAFAFA;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.abt_h {
+  padding-left: 50px;
+  padding-right: 50px;
 }/*# sourceMappingURL=globals.css.map */
