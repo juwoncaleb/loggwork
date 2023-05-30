@@ -7,7 +7,7 @@ export default function Hiring() {
         <div>
             <Header />
             <div className='mt-4 header hiring_header '>
-                <p className='hiring_header'>Hiring Guide</p>
+                <p className='hiring_header_text'>Hiring Guide</p>
                 <p className='hiring_subTxt'> Outlining the process of identifying, recruiting, and selecting Home <br />
                     Service Professionals for hire.</p>
 

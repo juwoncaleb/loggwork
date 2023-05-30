@@ -809,7 +809,7 @@
     margin-right: 15%;
   }
 }
-.hiring_header {
+.hiring_header_text {
   font-size: 40px;
   font-weight: 600;
 }
@@ -822,7 +822,7 @@
 }
 
 .hiring_subTxt {
-  margin-top: 16px;
+  margin-top: 15px;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -836,6 +836,30 @@
 .services_text {
   font-weight: 500;
   margin-top: 15px;
+}
+
+.opening {
+  background-color: #FAFAFA;
+  padding-top: 64px;
+}
+
+.job_position {
+  padding-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: white;
+  height: 70px;
+  margin-top: 20px;
+  width: 700px;
+  padding-left: 20px;
+  border: 1px solid rgb(206, 200, 200);
+}
+
+.current_opein {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .blog_header {
@@ -1319,4 +1343,35 @@
 .abt_h {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.connect_bg {
+  background-image: url("/shake.png");
+  background-size: cover;
+  background-position: center;
+  height: 529px;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+}
+
+.connect_head {
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.connect_Sub {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.conntect_toggle {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.toggle_options_connect {
+  margin-top: 57px;
 }/*# sourceMappingURL=globals.css.map */
