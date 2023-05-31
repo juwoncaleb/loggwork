@@ -1,4 +1,4 @@
-.connect_bg{
+.connect_bg {
     background-image: url('/shake.png');
     background-size: cover;
     background-position: center;
@@ -7,20 +7,52 @@
     padding-top: 104px;
     padding-left: 104px;
 }
-.connect_head{
+
+.connect_head {
     color: white;
     font-size: 52px;
     font-weight: 700;
 }
-.connect_Sub{
+
+.desk_items {
+    padding: 32px;
+    background-color: #F6F6F6;
+}
+.trad_path{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.desk_theme {
+    max-width: 600px;
+}
+.desk_head_trade{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.desk_head{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.connect_Sub {
     font-size: 20px;
     font-weight: 400;
     color: white;
 }
-.conntect_toggle{
- font-size: 17px;
- font-weight: 500;   
+
+.conntect_toggle {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
 }
-.toggle_options_connect{
+
+.toggle_options_connect {
     margin-top: 57px;
+}
+.green_line{
+    border: 1px solid #2FA500;
+    width: 250px;
 }
