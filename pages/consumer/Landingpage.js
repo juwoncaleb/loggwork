@@ -23,10 +23,10 @@ export default function Landingpage() {
       </div>
       <div className='feat flex justify-around'>
         <p className='feat_text'>FEATURED ON</p>
-        <img className='tel' src='./tel.png' />
-        <img className='ev' src='./ev.png' />
-        <img className='lon' src='./lon.png' />
-        <img className='fast' src='./fd.png' />
+        <img className='tel' src='../../tel.png' />
+        <img className='ev' src='../../ev.png' />
+        <img className='lon' src='../../lon.png' />
+        <img className='fast' src='../../fd.png' />
 
       </div>
 
@@ -34,7 +34,7 @@ export default function Landingpage() {
         <h3 className='secure'>Secured payment and privacy on Loggworks</h3>
         <div className='card abt_h gap-10  grid grid-cols-3'>
           <div>
-            <img className='ld_icon' src='./safe.png' />
+            <img className='ld_icon' src='../../safe.png' />
             <p className='card_header'>Privacy Protection</p>
             <div className='card_item'>
               <p>You’ll never have to share your personal information with tradesmen or
@@ -44,7 +44,7 @@ export default function Landingpage() {
             </div>
           </div>
           <div>
-            <img className='ld_icon' src='./card.png' />
+            <img className='ld_icon' src='../../card.png' />
             <p className='card_header'>Payment Protection</p>
             <div className='card_item'>
               <p> All your payments are protected by a highly secure Escrow account.
@@ -52,7 +52,7 @@ export default function Landingpage() {
             </div>
           </div>
           <div>
-            <img className='ld_icon' src='./check.png' />
+            <img className='ld_icon' src='../../check.png' />
             <p className='card_header'>Trusted Professional</p>
             <div className='card_item'>
               <p>We use the Self-Employed Quality Control Scheme =to comprehensively screen all
@@ -64,42 +64,42 @@ export default function Landingpage() {
         <p className='explore'>Explore popular services</p>
         <div className='grid grid-cols-6 gap-4'>
           <div className='trade_driv'>
-            <img className='trade' src='./ele.png' />
+            <img className='trade' src='../../ele.png' />
             <div className='shade'>
               <p className='trade_text'>Electrician</p>
 
             </div>
           </div>
           <div className='trade_driv'>
-            <img className='trade' src='./chi.png' />
+            <img className='trade' src='../../chi.png' />
             <div className='shade'>
               <p className='trade_text'>ChildMinder</p>
 
             </div>
           </div>
           <div className='trade_driv'>
-            <img className='trade' src='./cap.png' />
+            <img className='trade' src='../../cap.png' />
             <div className='shade'>
               <p className='trade_text'>Capenter</p>
 
             </div>
           </div>
           <div className='trade_driv'>
-            <img className='trade' src='./cle.png' />
+            <img className='trade' src='../../cle.png' />
             <div className='shade'>
               <p className='trade_text'>Cleaner</p>
 
             </div>
           </div>
           <div className='trade_driv'>
-            <img className='trade' src='./care.png' />
+            <img className='trade' src='../../care.png' />
             <div className='shade'>
               <p className='trade_text'>Care Worker</p>
 
             </div>
           </div>
           <div className='trade_driv'>
-            <img className='trade' src='./cook.png' />
+            <img className='trade' src='../../cook.png' />
             <div className='shade'>
               <p className='trade_text'>Cook</p>
 
@@ -108,8 +108,8 @@ export default function Landingpage() {
         </div>
         <div className='flex justify-between services_offer'>
           <div className='service_media'>
-            <img className='asia' src='./asai.png' />
-            <img className='asia_tag' src='./cards.png' />
+            <img className='asia' src='../../asai.png' />
+            <img className='asia_tag' src='../../cards.png' />
           </div>
           <div className='offer_text'>
             <p className='offer_header'>Do you have a service to offer?</p>
@@ -124,97 +124,97 @@ export default function Landingpage() {
         <div className='grid grid-cols-8'>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector.png' />
+              <img src='../../Icons/vector.png' />
             </div>
             <p className='cartegory_texts'>Catering</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-1.png' />
+              <img src='../../Icons/vector-1.png' />
             </div>
             <p className='cartegory_texts'>Childcare</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-2.png' />
+              <img src='../../Icons/vector-2.png' />
             </div>
             <p className='cartegory_texts'>Cleaning</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-3.png' />
+              <img src='../../Icons/vector-3.png' />
             </div>
             <p className='cartegory_texts'>Entertainment</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-4.png' />
+              <img src='../../Icons/vector-4.png' />
             </div>
             <p className='cartegory_texts'>Appliance Repair</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-5.png' />
+              <img src='../../Icons/vector-5.png' />
             </div>
             <p className='cartegory_texts'>Mobile Mechanic</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-6.png' />
+              <img src='../../Icons/vector-6.png' />
             </div>
             <p className='cartegory_texts'>Personal <br /> Assistance</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./vector.png' />
+              <img src='../../vector.png' />
             </div>
             <p className='cartegory_texts'>Pet Groomer</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector.png' />
+              <img src='../../Icons/vector.png' />
             </div>
             <p className='cartegory_texts'>Recovery <br /> Services</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-9.png' />
+              <img src='../../Icons/vector-9.png' />
             </div>
             <p className='cartegory_texts'>Computer <br /> Phone repair</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-2.png' />
+              <img src='../../Icons/vector-2.png' />
             </div>
             <p className='cartegory_texts'>Removal Service</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-11.png' />
+              <img src='../../Icons/vector-11.png' />
             </div>
             <p className='cartegory_texts'>Tradesman</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-4.png' />
+              <img src='../../Icons/vector-4.png' />
             </div>
             <p className='cartegory_texts'>Transport <br /> Services</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-5.png' />
+              <img src='../../Icons/vector-5.png' />
             </div>
             <p className='cartegory_texts'>Dry cleaning & <br /> Laundry</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./Icons/vector-14.png' />
+              <img src='../../Icons/vector-14.png' />
             </div>
             <p className='cartegory_texts'>Health, Wellness <br /> & Beauty</p>
           </div>
           <div>
             <div className='cartegory_icon_border'>
-              <img src='./vector.png' />
+              <img src='../../vector.png' />
             </div>
             <p className='cartegory_texts'>Tuition <br /> & Classes</p>
           </div>
@@ -227,20 +227,20 @@ export default function Landingpage() {
           </div>
           <div className='grid grid-cols-4 gap-4'>
             <div>
-              <img className='trade_Card' src='./img.png' />
+              <img className='trade_Card' src='../../img.png' />
               <p className='trade_texts'>Construction</p>
             </div>
             <div>
-              <img className='trade_Card' src='./img-1.png' />
+              <img className='trade_Card' src='../../img-1.png' />
               <p className='trade_texts'>Gardening & Landscaping</p>
             </div>
             <div>
-              <img className='trade_Card' src='./img-2.png' />
+              <img className='trade_Card' src='../../img-2.png' />
               <p className='trade_texts'>Painter</p>
 
             </div>
             <div>
-              <img className='trade_Card' src='./img-3.png' />
+              <img className='trade_Card' src='../../img-3.png' />
               <p className='trade_texts'>Electrician</p>
 
             </div>
@@ -255,20 +255,20 @@ export default function Landingpage() {
           </div>
           <div className='grid grid-cols-4 gap-4'>
             <div>
-              <img className='trade_Card' src='./img-4.png' />
+              <img className='trade_Card' src='../../img-4.png' />
               <p className='trade_texts'>Babysitters</p>
             </div>
             <div>
-              <img className='trade_Card' src='./img-5.png' />
+              <img className='trade_Card' src='../../img-5.png' />
               <p className='trade_texts'>Childminders</p>
             </div>
             <div>
-              <img className='trade_Card' src='./img-6.png' />
+              <img className='trade_Card' src='../../img-6.png' />
               <p className='trade_texts'>Nanies</p>
 
             </div>
             <div>
-              <img className='trade_Card' src='./img-7.png' />
+              <img className='trade_Card' src='../../img-7.png' />
               <p className='trade_texts'>Nursery</p>
 
             </div>
@@ -283,20 +283,20 @@ export default function Landingpage() {
           </div>
           <div className='grid grid-cols-4 gap-4'>
             <div>
-              <img className='trade_Card' src='./img-8.png' />
+              <img className='trade_Card' src='../../img-8.png' />
               <p className='trade_texts'>Event planner</p>
             </div>
             <div>
-              <img className='trade_Card' src='./img-9.png' />
+              <img className='trade_Card' src='../../img-9.png' />
               <p className='trade_texts'>Event coverage</p>
             </div>
             <div>
-              <img className='trade_Card' src='./img-10.png' />
+              <img className='trade_Card' src='../../img-10.png' />
               <p className='trade_texts'>Phtography and film</p>
 
             </div>
             <div>
-              <img className='trade_Card' src='./img-10.png' />
+              <img className='trade_Card' src='../../img-10.png' />
               <p className='trade_texts'>Disk Jockey</p>
 
             </div>
@@ -312,8 +312,8 @@ export default function Landingpage() {
             </button>
           </div>
           <div className='service_media'>
-            <img className='asia' src='./gyal.png' />
-            <img className='asia_tag2' src='./cards.png' />
+            <img className='asia' src='../../gyal.png' />
+            <img className='asia_tag2' src='../../cards.png' />
 
           </div>
         </div>
@@ -321,15 +321,15 @@ export default function Landingpage() {
           <p className='testimonal_header'>We are trusted by many across the UK</p>
           <div>
             <div className='flex'>
-              <img className='strboy' src='./star.png' />
+              <img className='strboy' src='../../star.png' />
               <p className='trust'>Trustpilot</p>
             </div>
             <div className='flex'>
-              <img className='stars' src='./star1.png' />
-              <img className='stars' src='./star1.png' />
-              <img className='stars' src='./star1.png' />
-              <img className='stars' src='./star1.png' />
-              <img className='stars' src='./stae2.png' />
+              <img className='stars' src='../../star1.png' />
+              <img className='stars' src='../../star1.png' />
+              <img className='stars' src='../../star1.png' />
+              <img className='stars' src='../../star1.png' />
+              <img className='stars' src='../../stae2.png' />
 
             </div>
           </div>
@@ -390,7 +390,7 @@ export default function Landingpage() {
 
         </div>
         <div className='phone_frame flex justify-between'>
-          <img className='phone' src='./phone.png' />
+          <img className='phone' src='../../phone.png' />
           <div className='phone_text'>
             <p className='access'>Access Loggworks <br /> on your mobile phone</p>
             <p className='access_subText'>Enjoy the full experience of Loggworks on our mobile app. What’s more?
@@ -405,7 +405,7 @@ export default function Landingpage() {
 
         <div className='grid grid-cols-3 gap-4 blog'>
           <div>
-            <img className='blog_img' src='./blog2.png' />
+            <img className='blog_img' src='../../blog2.png' />
             <p className='blog_head'>5 Tips for Finding the Right Home Service Professionals.</p>
             <p className='blog_sub'>Loggworks helps you get special offers, connect you to top vetted and reliable service professionals  </p>
             <div className='flex'>
@@ -414,7 +414,7 @@ export default function Landingpage() {
             </div>
           </div>
           <div>
-            <img className='blog_img' src='/blog1.png' />
+            <img className='blog_img' src='.././blog1.png' />
             <p className='blog_head'>7 tips for running a successful cleaning service company.</p>
             <p className='blog_sub'>Loggworks helps you get special offers, connect you to top vetted and reliable service professionals  </p>
             <div className='flex'>
@@ -424,7 +424,7 @@ export default function Landingpage() {
           </div>
 
           <div>
-            <img className='blog_img' src='./blog3.png' />
+            <img className='blog_img' src='../../blog3.png' />
             <p className='blog_head'>How to know the best child care worker for your kids.</p>
             <p className='blog_sub'>Loggworks helps you get special offers, connect you to top vetted and reliable service professionals  </p>
             <div className='flex'>
