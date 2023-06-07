@@ -4,7 +4,7 @@ import Footer from '../../components/Footer'
 export default function Pricing() {
     return (
         <div className=''>
-            <Header />
+            {/* <Header /> */}
             <div className='blog_div mt-4'>
                 <div>
                     <p className='blog_header'>Pricing Guide</p>
@@ -17,7 +17,7 @@ export default function Pricing() {
                 </div>
             </div>
             <div className='header'>
-                <div className='grid grid-cols-6 gap-4'>
+                <div className='grid pricing_trdes md:grid-cols-6  gap-4'>
                     <div className='trade_driv'>
                         <img className='prize' src='./../../image.png' />
                         <div className='shade_price'>
@@ -101,8 +101,8 @@ export default function Pricing() {
                         </div>
                     </div>
                 </div>
-                <p className='mt-8 mb-8 service_head'>All Services</p>
-                <div className='grid grid-cols-4 mb-14'>
+                <p className='mt-2 mb-2 service_head'>All Services</p>
+                <div className='grid md:grid-cols-4 grid-cols-2  mb-14'>
                     <div>
                         <p className='location cursor-pointer'>Plumbing repairs</p>
                         <p className='location cursor-pointer'>Gutter cleaning and repairs</p>
@@ -152,7 +152,7 @@ export default function Pricing() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

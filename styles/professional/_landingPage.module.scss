@@ -1,4 +1,3 @@
-
 .prof {
     background-image: url('/profesiion.png');
     background-size: cover;
@@ -9,15 +8,18 @@
     padding-left: 104px;
 
 }
-.prof_land_text{
+
+.prof_land_text {
     max-width: 350px;
 }
-.prof_land_text_head{
+
+.prof_land_text_head {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 30px;
 }
-.pro_hero{
+
+.pro_hero {
     height: 48px;
     color: white;
     width: 200px;
@@ -27,22 +29,219 @@
     padding-left: 12px;
     padding-top: 12px;
 }
-.professional_card{
+
+.professional_card {
     margin-top: 150px;
 }
-.join_prof{
-    padding-top: 168px;
+
+.join_prof {
+    padding-top: 70px;
     padding-left: 110px;
     padding-bottom: 200px;
 }
-.join_prof_texts{
+
+.join_prof_texts {
     max-width: 400px;
 }
-.pro_faq{
+
+.hero_texts {
+    max-width: 400px;
+}
+
+.pro_faq {
     text-align: center;
     margin-bottom: 70px;
 }
-.professional_faq{
+
+.professional_faq {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.community_card {
+    margin-top: 180px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .secure {
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 26px;
+        margin-top: 64px;
+    }
+
+    .card_header {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .card_item {
+        max-width: 400px;
+        text-align: left;
+    }
+
+    .join_prof {
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-bottom: 200px;
+    }
+
+    .phone {
+        width: 350px;
+        margin-top: 80px;
+
+    }
+
+    .phone_text {
+        margin-left: 50px;
+    }
+
+    .phone_frame {
+        margin-top: 106px;
+        background-color: #2E2E2E;
+        padding-left: 70px;
+        padding-right: 70px;
+        border-radius: 15px;
+
+        align-content: baseline;
+    }
+
+    .access {
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 48px;
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 101px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .abt_h {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .pro_card_rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .professional_card {
+        margin-top: 60px;
+    }
+
+    .community_card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .community_card {
+        margin-top: 70px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .join_prof {
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    .phone_frame {
+        margin-top: 106px;
+        background-color: #2E2E2E;
+        padding-left: 0;
+        padding-right: 0px;
+        border-radius: 15px;
+    }
+
+    .phone_text {
+        margin-left: 30px;
+    }
+
+    .phone_frame {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .cape {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .get_started {
+        text-align: center;
+    }
+
+    .secure {
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 26px;
+        margin-top: 4px;
+        text-align: center;
+    }
+
+   
+
+    .phone_frame {
+        margin-bottom: 40px;
+    }
+
+    .access_button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prof_land_text_head {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .join_text {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .pro_hero {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prof {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+
+    .card {
+        margin-top: 56px;
+        margin-bottom: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .phone {
+        width: 330px;
+        margin-top: 80px;
+    }
+
+    .hero_header {
+        font-size: 25px;
+        font-weight: 700;
+    }
 }

@@ -4,7 +4,7 @@ import Footer from '../../../components/Footer';
 export default function Childcare() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className='header'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Hiring guide </p>
@@ -13,11 +13,11 @@ export default function Childcare() {
                         Hiring Childcare workers</p>
                 </div>
                 <div className='mt-4 header hiring_header '>
-                    <p className='hiring_header'>Hiring Childcare Workers</p>
+                    <p className='secure'>Hiring Childcare Workers</p>
                 </div>
                 <div className='blog_post flex justify-center mb-8'>
 
-                    <div className='blog_list grid grid-cols-3 gap-4 mt-2'>
+                    <div className='blog_list filter_blog grid grid-cols-3 gap-4 mt-2'>
                         <div>
                             <img src='./../../babe.png' />
                             <p className='blog_list_header mb-2 mt-1'> Tips for hiring Babysitters</p>
@@ -145,7 +145,7 @@ export default function Childcare() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

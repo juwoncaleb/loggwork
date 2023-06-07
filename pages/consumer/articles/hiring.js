@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer';
+import Header from '../../../components/Header'
+import Footer from '../../../components/Footer';
 
 export default function Hiring() {
     return (
         <div >
-            <Header />
+            {/* <Header /> */}
             <div className='header mb-14'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Blog </p>
@@ -18,10 +18,10 @@ export default function Hiring() {
                     <div>
                         <p className='article_header'>5 Tips for Finding the Right Home Service Professionals.</p>
                         <p className='article_cartegory'>ADVICE</p>
-                        <img className='harmer' src='./../hammer.png' />
+                        <img className='harmer' src='./../../hammer.png' />
                     </div>
                 </div>
-                <div className='flex justify-center mt-6'>
+                <div className='flex baby justify-center mt-6'>
                     {/* ARTICLE TEXT */}
                     <div className='article_content '>
                         <p className='mb-8 key_point'>Finding a babysitter you trust to care for your children can be a daunting task.
@@ -65,12 +65,12 @@ export default function Hiring() {
                     <div>
                         <div className='share'>
                             <p className='share_text'>Share this aricle</p>
-                            <div className='flex '>
-                                <img className='article_icon' src='./../fb.png' />
-                                <img className='article_icon' src='./../twitter.png' />
-                                <img className='article_icon' src='./../ri_linkedin-box-fill.png' />
-                                <img className='article_icon' src='./../ic_round-mail.png' />
-                                <img className='article_icon' src='./../ri_link.png' />
+                            <div className='flex share_icons '>
+                                <img className='article_icon' src='./../../fb.png' />
+                                <img className='article_icon' src='./../../twitter.png' />
+                                <img className='article_icon' src='./../../ri_linkedin-box-fill.png' />
+                                <img className='article_icon' src='./../../ic_round-mail.png' />
+                                <img className='article_icon' src='./../../ri_link.png' />
                             </div>
                         </div>
                         <div className='professiona_cta'>
@@ -84,7 +84,7 @@ export default function Hiring() {
                         </div>
                         <div className='professiona_post'>
                             <div className='offer_service'>
-                                <p className='offer_your_services'>Can’t find the <br/> professional you are <br/> looking for?? Let the <br/> professional find you.</p>
+                                <p className='offer_your_services'>Can’t find the <br /> professional you are <br /> looking for?? Let the <br /> professional find you.</p>
                                 <p className='offer_your_services_subtext'>Post a job with your price in <br /> mind, then get offers</p>
                                 <div className='cta_professinal'>
                                     <p p className='cta_pro_text'>Post a Job</p>
@@ -94,8 +94,7 @@ export default function Hiring() {
                     </div>
                 </div>
             </div>
-            <Footer />
-
+            {/* <Footer /> */}
         </div>
     )
 }

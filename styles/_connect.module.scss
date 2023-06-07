@@ -18,25 +18,31 @@
     padding: 32px;
     background-color: #F6F6F6;
 }
-.trad_path{
+
+.trad_path {
     margin-top: 40px;
     font-size: 18px;
+    text-align: center;
     font-weight: 600;
 }
+
 .desk_theme {
     max-width: 600px;
 }
-.desk_head_trade{
+
+.desk_head_trade {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 40px;
     text-align: center;
 }
-.desk_head{
+
+.desk_head {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .connect_Sub {
     font-size: 20px;
     font-weight: 400;
@@ -52,7 +58,100 @@
 .toggle_options_connect {
     margin-top: 57px;
 }
-.green_line{
+
+.green_line {
     border: 1px solid #2FA500;
     width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    .green_line {
+        border: 1px solid #2FA500;
+        width: 150px;
+    }
+
+    .desk_items {
+        flex-direction: column;
+    }
+
+    .desk_theme {
+        margin-bottom: 20px;
+    }
+
+    .sub_logo {
+        height: 25px;
+    }
+
+    .trad_path {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .connect_head {
+        color: black;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .connect_Sub {
+        font-size: 20px;
+        font-weight: 400;
+        color: black;
+    }
+    .connect_bg {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        padding-left: 0px;
+        padding-top: 104px;
+    }
+
+    .catalogue_bg {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .green_line {
+        border: 1px solid #2FA500;
+        width: 70px;
+    }
+
+    .conntect_toggle {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+    .connect_icon {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .sub_logo {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .green_line {
+        border: 1px solid #2FA500;
+        width: 70px;
+    }
+
+    .conntect_toggle {
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
 }

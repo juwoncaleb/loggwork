@@ -1,4 +1,5 @@
 $themegreen: #2FA500;
+
 .consumer_faq {
     background-color: #F9FDF7;
     text-align: center;
@@ -18,13 +19,11 @@ $themegreen: #2FA500;
 }
 
 .faq_contact {
-    padding-left: 310px;
-    padding-right: 310px;
+  
 }
 
 .form {
-    padding-left: 310px;
-    padding-right: 310px;
+   
 }
 
 .faq_tab {
@@ -35,13 +34,13 @@ $themegreen: #2FA500;
     padding-top: 9px;
     padding-bottom: 9px;
     font-size: 14px;
-  
+
     font-weight: 600;
 
 }
 
 .info_details {
-    width: 350px;
+    width: 45%;
     height: 48px;
     border: 2px solid #DFDFDF;
     margin-top: 6px;
@@ -49,10 +48,12 @@ $themegreen: #2FA500;
     background-color: #FAFAFA;
 
 }
-.form{
+
+.form {
     font-size: 16px;
     font-weight: 500;
 }
+
 .contact_form {
     width: 406px;
     background-color: #F9FDF7;
@@ -62,7 +63,8 @@ $themegreen: #2FA500;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
-   
+    margin-top: 10px;
+
 }
 
 .question {
@@ -78,60 +80,84 @@ $themegreen: #2FA500;
 .last {
     margin-bottom: 100px;
 }
-.subbutton{
+
+.subbutton {
     justify-content: right;
 }
-.large_bar{
-    border-radius: 5px;
-   width: 100%;
-   height: 48px; 
-   border: 2px solid #DFDFDF;
-   border-radius: 5px;
 
-   background-color: #FAFAFA;
-}
-.larger_bar{
+.large_bar {
     border-radius: 5px;
     width: 100%;
-    height: 80px; 
+    height: 48px;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+
+    background-color: #FAFAFA;
+}
+
+.larger_bar {
+    border-radius: 5px;
+    width: 100%;
+    height: 80px;
     border: 2px solid #DFDFDF;
     background-color: #FAFAFA;
 
     border-radius: 5px;
 }
-.contact_btn{
+
+.contact_btn {
     background-color: $themegreen;
     margin-right: auto;
     width: 186px;
     height: 48px;
     margin-bottom: 56px;
+    color: white;
 
 }
-.faq_address{
+
+.faq_address {
     margin-top: 20px;
     margin-bottom: 13px;
 }
-.faq_add{
+
+.faq_add {
     margin-bottom: 420px;
     background-color: #FAFAFA;
     border-radius: 5px;
     padding: 24px;
 }
-.faq_tab_white{
+
+.faq_tab_white {
+    margin-top: 10px;
     background-color: white;
     font-weight: 600;
-    color:$themegreen ;
+    color: $themegreen ;
     font-size: 16px;
 }
+
 @media only screen and (min-width: 1600px) {
     .faq_contact {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
     .form {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .faq_contact {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
 
 }

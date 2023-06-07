@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer';
 export default function Hiring() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className='mt-4 header hiring_header '>
                 <p className='hiring_header_text'>Hiring Guide</p>
                 <p className='hiring_subTxt'> Outlining the process of identifying, recruiting, and selecting Home <br />
@@ -75,7 +75,7 @@ export default function Hiring() {
                 </div>
 
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

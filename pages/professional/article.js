@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 export default function Hiring() {
     return (
         <div >
-            <Header />
+            {/* <Header /> */}
             <div className='header mb-14'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Blog </p>
@@ -21,7 +21,7 @@ export default function Hiring() {
                         <img className='harmer' src='./../hammer.png' />
                     </div>
                 </div>
-                <div className='flex justify-center mt-12'>
+                <div className='flex article_grid justify-center mt-12'>
                     {/* ARTICLE TEXT */}
                     <div className='article_content '>
                         <p className='mb-8 key_point'>Finding a babysitter you trust to care for your children can be a daunting task.
@@ -65,7 +65,7 @@ export default function Hiring() {
                     <div>
                         <div className='share'>
                             <p className='share_text'>Share this aricle</p>
-                            <div className='flex '>
+                            <div className='flex share_icons '>
                                 <img className='article_icon' src='./../fb.png' />
                                 <img className='article_icon' src='./../twitter.png' />
                                 <img className='article_icon' src='./../ri_linkedin-box-fill.png' />
@@ -94,7 +94,7 @@ export default function Hiring() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

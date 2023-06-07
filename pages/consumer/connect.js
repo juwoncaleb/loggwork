@@ -7,7 +7,7 @@ export default function Connect() {
 
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className='connect_bg mt-4'>
                 <div className='consumer_work_text'>
                     <p className='connect_head'>Together we achieve more</p>
@@ -16,7 +16,7 @@ export default function Connect() {
                         <p>Connect us</p>
                     </button>
                 </div>
-            </div>
+            </div>-
             <div className='header'>
                 <div className='flex justify-around toggle_options_connect mb-8'>
                     <div onClick={() => setOpen(1)}  className='cursor-pointer'>
@@ -90,23 +90,23 @@ export default function Connect() {
                                 </div>
                                 <img src='../../desk.png' />
                             </div>
-                            <div className='mt-10'>
+                            <div className='mt-10 mb-10'>
                                 <p className='desk_head_trade'>Our trade partners</p>
-                                <div className='flex justify-around'>
+                                <div className='flex connect_icon  justify-around'>
                                     <div>
-                                        <img src='../../Ziprecruiter.png' />
+                                        <img className='sub_logo' src='../../Ziprecruiter.png' />
                                         <p className='trad_path'>Zip recruiter</p>
                                     </div>
                                     <div>
-                                        <img src='../../rangers.png' />
+                                        <img  className='sub_logo' src='../../rangers.png' />
                                         <p className='trad_path'>New York Rangers</p>
                                     </div>
                                     <div>
-                                        <img src='../../Confluence.png' />
+                                        <img  className='sub_logo' src='../../Confluence.png' />
                                         <p className='trad_path'>Confluence</p>
                                     </div>
                                     <div>
-                                        <img src='../../iron_mon.png' />
+                                        <img  className='sub_logo' src='../../iron_mon.png' />
                                         <p className='trad_path'>Iron man</p>
                                     </div>
                                 </div>
@@ -127,23 +127,23 @@ export default function Connect() {
                                 </div>
                                 <img src='../../t1.png' />
                             </div>
-                            <div className='mt-10'>
+                            <div className='mt-10 mb-10'>
                                 <p className='desk_head_trade'>Our trade partners</p>
                                 <div className='flex justify-around'>
                                     <div>
-                                        <img src='../../Ikea.png' />
+                                        <img  className='sub_logo' src='../../Ikea.png' />
                                         <p className='trad_path'>IKEA</p>
                                     </div>
                                     <div>
-                                        <img src='../../punch.png' />
+                                        <img  className='sub_logo' src='../../punch.png' />
                                         <p className='trad_path'>Hawaiian punch</p>
                                     </div>
                                     <div>
-                                        <img src='../../Jeep.png' />
+                                        <img  className='sub_logo' src='../../Jeep.png' />
                                         <p className='trad_path'>Jeep</p>
                                     </div>
                                     <div>
-                                        <img src='../../Gusto.png' />
+                                        <img  className='sub_logo' src='../../Gusto.png' />
                                         <p className='trad_path'>Gusto</p>
                                     </div>
                                 </div>
@@ -162,23 +162,23 @@ export default function Connect() {
                                 </div>
                                 <img src='../../t2.png' />
                             </div>
-                            <div className='mt-10'>
+                            <div className='mt-10 mb-10'>
                                 <p className='desk_head_trade'>Our trade partners</p>
                                 <div className='flex justify-around'>
                                     <div>
-                                        <img src='../../e1.png' />
+                                        <img  className='sub_logo' src='../../e1.png' />
                                         <p className='trad_path'>Sam jones</p>
                                     </div>
                                     <div>
-                                        <img src='../../e2.png' />
+                                        <img  className='sub_logo' src='../../e2.png' />
                                         <p className='trad_path'>Chris Sean</p>
                                     </div>
                                     <div>
-                                        <img src='../../e3.png' />
+                                        <img  className='sub_logo' src='../../e3.png' />
                                         <p className='trad_path'>Whiney adams</p>
                                     </div>
                                     <div>
-                                        <img src='../../e4.png' />
+                                        <img  className='sub_logo' src='../../e4.png' />
                                         <p className='trad_path'>Charles anderson</p>
                                     </div>
                                 </div>
@@ -197,12 +197,12 @@ export default function Connect() {
                                 </div>
                                 <img src='../../t4.png' />
                             </div>
-                            <div className='mt-10'>
+                            <div className='mt-10 mb-10'>
                                 <p className='desk_head_trade'>Our trade partners</p>
                                 <div className='flex justify-center'>
 
                                     <div>
-                                        <img src='../../Betterhelp.png' />
+                                        <img  className='sub_logo' src='../../Betterhelp.png' />
                                         <p className='trad_path'>Better Help</p>
                                     </div>
 
@@ -212,7 +212,7 @@ export default function Connect() {
                     )
                 }
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

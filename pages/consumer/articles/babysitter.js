@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer';
+import Header from '../../../components/Header'
+import Footer from '../../../components/Footer';
 
 export default function Babysitter() {
     return (
         <div className='' >
-            <Header />
+            {/* <Header /> */}
             <div className='header mt-4 mb-14'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Blog </p>
@@ -21,11 +21,11 @@ export default function Babysitter() {
                     <div>
                         <p className='article_header'>Tips on hiring Babysitters.</p>
                         <p className='article_cartegory'>BABYSITTERS</p>
-                        <img className='harmer' src='./../babysiter.png' />
+                        <img className='harmer' src='./../../babysiter.png' />
                     </div>
 
                 </div>
-                <div className='flex justify-center mt-6'>
+                <div className='flex baby justify-center mt-6'>
                     {/* ARTICLE TEXT */}
                     <div className='article_content '>
                         <p className='mb-8 key_point'>Finding a babysitter you trust to care for your children can be a daunting task.
@@ -69,12 +69,12 @@ export default function Babysitter() {
                     <div>
                         <div className='share'>
                             <p className='share_text'>Share this aricle</p>
-                            <div className='flex '>
-                                <img className='article_icon' src='./../fb.png' />
-                                <img className='article_icon' src='./../twitter.png' />
-                                <img className='article_icon' src='./../ri_linkedin-box-fill.png' />
-                                <img className='article_icon' src='./../ic_round-mail.png' />
-                                <img className='article_icon' src='./../ri_link.png' />
+                            <div className='flex share_icons '>
+                                <img className='article_icon' src='./../../fb.png' />
+                                <img className='article_icon' src='./../../twitter.png' />
+                                <img className='article_icon' src='./../../ri_linkedin-box-fill.png' />
+                                <img className='article_icon' src='./../../ic_round-mail.png' />
+                                <img className='article_icon' src='./../../ri_link.png' />
                             </div>
                         </div>
                         <div className='professiona_cta'>
@@ -98,7 +98,7 @@ export default function Babysitter() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

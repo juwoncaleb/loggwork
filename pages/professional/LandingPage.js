@@ -8,11 +8,14 @@ export default function LandingPage() {
 
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div>
                 <div className='prof mt-4'>
-                    <p className='hero_header'>Get ahead in your <br /> chosen profession</p>
-                    <p className='hero_subText'> To join as a home service provider, enter your phone number here. <br /> ou will recieve a link to download the app and register yourself.</p>
+                    <p className='hero_header'>Get ahead in your chosen profession</p>
+                    <div className='hero_texts'>
+                        <p className='hero_subText'> To join as a home service provider, enter your phone number here.  ou will recieve a link to download the app and register yourself.</p>
+
+                    </div>
                     <div className='flex'>
                         <div className='pro_hero'>
                             <p>Become a professional</p>
@@ -22,7 +25,7 @@ export default function LandingPage() {
                 <div className='header'>
                     <h3 className='secure'>Secured payment and privacy on Loggworks</h3>
 
-                    <div className='card abt_h gap-10  grid grid-cols-3'>
+                    <div className='card abt_h gap-10  grid grid-cols-3 '>
                         <div>
                             <img src='../../Privacy.png' />
                             <p className='card_header mt-4'>Cut business costs.</p>
@@ -49,31 +52,32 @@ export default function LandingPage() {
                             </div>
                         </div>
                     </div>
-                    <h3 className='secure mb-2'>How it works</h3>
-                    <p className='mb-14'>Get started using loggworks in 4 easy steps.</p>
-                    <div className='flex justify-around mt-24'>
+                   
+                        <h3 className='secure mb-2'>How it works</h3>
+                        <p className='md:mb-14 mb-6 get_started'>Get started using loggworks in 4 easy steps.</p>
+                    <div className='flex abt_h justify-around mt-24'>
                         <img src='../../babs.png' />
                         <div className='prof_land_text'>
-                            <p className='prof_land_text_head'>Sign up as a service provider.</p>
+                            <p className='prof_land_text_head '>Sign up as a service provider.</p>
                             <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
                         </div>
                     </div>
-                    <div className='flex justify-around professional_card'>
+                    <div className='flex abt_h justify-around professional_card pro_card_rev'>
                         <div className='prof_land_text'>
-                            <p className='prof_land_text_head'>Recieve requests from clients..</p>
+                            <p className='prof_land_text_head'>Receive requests from clients..</p>
                             <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
                         </div>
                         <img src='../../mail.png' />
 
                     </div>
-                    <div className='flex justify-around professional_card mb-10'>
+                    <div className='flex abt_h justify-around professional_card mb-10'>
                         <img src='../../fee.png' />
                         <div className='prof_land_text'>
                             <p className='prof_land_text_head'>Complete the job and get paid.</p>
                             <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
                         </div>
                     </div>
-                    <div className='flex justify-around professional_card '>
+                    <div className='flex abt_h justify-around professional_card pro_card_rev '>
                         <div className='prof_land_text'>
                             <p className='prof_land_text_head'>Recieve requests from clients..</p>
                             <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
@@ -82,18 +86,18 @@ export default function LandingPage() {
 
                     </div>
                 </div>
-                <div className='header flex justify-around mt-24'>
-                    <div className='join_prof'>
-                        <h3 className='secure mb-6'>Join our growing <br />communiunity of <br />professional</h3>
+                <div className='header flex justify-around community_card'>
+                    <div className='cape'>
+                        <h3 className='secure  mb-6'>Join our growing <br />communiunity of <br />professional</h3>
                         <div className='join_prof_texts'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque iaculis cras tortor felis
+                            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque iaculis cras tortor felis
                                 ipsum urna nibh tincidunt. Convallis eget pharetra sit aliquet ultrices. </p>
                         </div>
                         <div className='pro_hero mt-8'>
                             <p>Become a professional</p>
                         </div>
                     </div>
-                    <div className='grid grid-cols-2 gap-6'>
+                    <div className='grid grid-cols-2 gap-6 ml-8'>
                         <img src='../../teach.png' />
                         <img className='mt-6' src='../../flo.png' />
                         <img src='../../civ.png' />
@@ -107,11 +111,11 @@ export default function LandingPage() {
             <div className='phone_frame header flex justify-between'>
                 <img className='phone' src='../../phone.png' />
                 <div className='phone_text'>
-                    <p className='access'>Access Loggworks <br /> on your mobile phone</p>
+                    <p className='access'>Access Loggworks on your mobile phone</p>
                     <p className='access_subText'>Enjoy the full experience of Loggworks on our mobile app. What’s more?
                         <br />
                         You get to enjoy all of our services convieniently. </p>
-                    <button className='access_button'>
+                    <button className='access_button '>
                         Coming soon
                     </button>
                 </div>
@@ -281,7 +285,7 @@ export default function LandingPage() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

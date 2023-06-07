@@ -259,6 +259,7 @@ $themegreen: #2FA500;
 
 .phone_text {
     margin-left: 152px;
+    max-width: 400px;
 }
 
 .trademen_head {
@@ -474,4 +475,10 @@ $themegreen: #2FA500;
     padding-top: 15px;
     font-weight: 500;
     margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 425px) {
+    .shade {
+        width: 100px;
+    }
 }

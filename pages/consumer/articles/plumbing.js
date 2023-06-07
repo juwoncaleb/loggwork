@@ -4,7 +4,7 @@ import Footer from '../../../components/Footer';
 export default function Plumbing() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className='header'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Pricing Guide </p>
@@ -17,10 +17,10 @@ export default function Plumbing() {
                     <div>
                         <p className='article_header'>Plumbing repair.</p>
                         <p className='article_cartegory'>Pricing</p>
-                        <img className='harmer' src='./../pl.png' />
+                        <img className='harmer' src='./../../pl.png' />
                     </div>
                 </div>
-                <div className='flex justify-center mt-6'>
+                <div className='flex baby justify-center mt-6'>
                     {/* ARTICLE TEXT */}
                     <div className='article_content plumm '>
                         <p className='mb-8 key_point'>Plumbing repair costs can vary greatly depending on the specific issue and the type of property.
@@ -51,12 +51,12 @@ export default function Plumbing() {
                     <div>
                         <div className='share'>
                             <p className='share_text'>Share this aricle</p>
-                            <div className='flex '>
-                                <img className='article_icon' src='./../fb.png' />
-                                <img className='article_icon' src='./../twitter.png' />
-                                <img className='article_icon' src='./../ri_linkedin-box-fill.png' />
-                                <img className='article_icon' src='./../ic_round-mail.png' />
-                                <img className='article_icon' src='./../ri_link.png' />
+                            <div className='flex share_icons '>
+                                <img className='article_icon' src='./../../fb.png' />
+                                <img className='article_icon' src='./../../twitter.png' />
+                                <img className='article_icon' src='./../../ri_linkedin-box-fill.png' />
+                                <img className='article_icon' src='./../../ic_round-mail.png' />
+                                <img className='article_icon' src='./../../ri_link.png' />
                             </div>
                         </div>
                         <div className='professiona_cta'>
@@ -80,7 +80,7 @@ export default function Plumbing() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

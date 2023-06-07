@@ -8,7 +8,7 @@ export default function Faq() {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div className='consumer_faq mt-4'>
         <p className='consumer_faq_head'>Get all the help you need.</p>
         <p className='consumer_faq_sub'> Loggworks connect homeowners to genuine and reliable service </p>
@@ -16,11 +16,11 @@ export default function Faq() {
       </div>
 
       <div className='faq_contact'>
-        <div className='flex mt-14 justify-between'>
-          <div onClick={() => setOpen( 1 )} className={open ===1 ? "faq_tab_white" : "faq_tab"}>
+        <div className='flex mt-14 justify-center'>
+          <div onClick={() => setOpen(1)} className={open === 1 ? "faq_tab_white" : "faq_tab"}>
             <p>Frequently Asked Questions</p>
           </div>
-          <div onClick={() => setOpen( 2 )} className={open ===2 ? "faq_tab_white" : "contact_form"} >
+          <div onClick={() => setOpen(2)} className={open === 2 ? "faq_tab_white" : "contact_form"} >
             <p>Contact Us</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function Faq() {
       {/* FAQ & CONSTACT TAB */}
       {
         open === 1 && (
-          <div className='faq_contact'>
+          <div className='faq_contact header'>
             <div>
 
               <div className='faq_head'>
@@ -299,61 +299,61 @@ export default function Faq() {
 
       {/* CONATACT FORMA */}
 
-     {
-      open === 2 && (
-        <div className='form mt-4'>
-        <div className='flex justify-between'>
-          <div>
-            <p>First name </p>
-            <input className='info_details' />
-          </div>
-          <div>
-            <p>Last name </p>
-            <input className='info_details' />
-          </div>
-        </div>
-        <div className='mt-4'>
-          <p>Email Addresss</p>
-          <input className='large_bar' />
-        </div>
-        <div className='mt-4'>
-          <p>Subjects</p>
-          <input className='large_bar' />
-        </div>
-        <div className='mt-4'>
-          <p>Email Addresss</p>
-          <input className='larger_bar' />
-        </div>
-        <div className='flex mt-4 justify-between'>
-          <div class=" flex subbutoon">
-            <button className='contact_btn'>
-              <p>Submit</p>
-            </button>
-          </div>
-        </div>
-        <div className='  faq_add'>
+      {
+        open === 2 && (
+          <div className='form header mt-4'>
+            <div className='flex justify-between'>
+              <p>First name </p>
+              <p>Last name </p>
+            </div>
+            <div className='flex justify-between'>
+              <input className='info_details' />
 
-          <img className='logo' src='https://ik.imagekit.io/juwoncaleb/lo_wCz74a4lV.webp?updatedAt=1685112934249' />
-          <p className='faq_address'>31 London Road, Sunderland , SR13 4CU</p>
-          <div className='flex justify-between'>
-            <p>+44 7794754963, +44 8094754926</p>
-            <div className='flex '>
-              <img className='mr-3' src='../../fb.png' />
-              <img className='mr-3' src='../../twitter.png' />
+              <input className='info_details' />
 
-              <img className='mr-3' src='../../ri_linkedin-box-fill.png' />
-              <img className='mr-3' src='../../ri_instagram-fill.png' />
-              <img className='mr-3' src='../../ri_youtube-fill.png' />
+            </div>
+            <div className='mt-4'>
+              <p>Email Addresss</p>
+              <input className='large_bar' />
+            </div>
+            <div className='mt-4'>
+              <p>Subjects</p>
+              <input className='large_bar' />
+            </div>
+            <div className='mt-4'>
+              <p>Email Addresss</p>
+              <input className='larger_bar' />
+            </div>
+            <div className='flex mt-4 justify-between'>
+              <div class=" flex subbutoon">
+                <button className='contact_btn'>
+                  <p>Submit</p>
+                </button>
+              </div>
+            </div>
+            <div className='  faq_add'>
+
+              <img className='logo' src='https://ik.imagekit.io/juwoncaleb/lo_wCz74a4lV.webp?updatedAt=1685112934249' />
+              <p className='faq_address'>31 London Road, Sunderland , SR13 4CU</p>
+              <div className='flex justify-between'>
+                <p>+44 7794754963, +44 8094754926</p>
+                <div className='flex '>
+                  <img className='mr-3' src='../../fb.png' />
+                  <img className='mr-3' src='../../twitter.png' />
+
+                  <img className='mr-3' src='../../ri_linkedin-box-fill.png' />
+                  <img className='mr-3' src='../../ri_instagram-fill.png' />
+                  <img className='mr-3' src='../../ri_youtube-fill.png' />
+
+                </div>
+              </div>
+
 
             </div>
           </div>
-
-
-        </div>
-      </div>
-      )
-     }
-      <Footer />
+        )
+      }
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -8,12 +8,15 @@ export default function Landingpage() {
 
   return (
     <div className=''>
-      <Header />
+      {/* <Header /> */}
       <div className='hero mt-4'>
         <p className='hero_header'>Find reliable home service</p>
         <p className='hero_header'>provider near you</p>
-        <p className='hero_subText'> Loggworks connect homeowners to genuine and reliable  <br /> service providers
-          who provide easy-to-book and hassle-free services.</p>
+        <div className='hero_texts'>
+          <p className='hero_subText'> Loggworks connect homeowners to genuine and reliable  <br /> service providers
+            who provide easy-to-book and hassle-free services.</p>
+        </div>
+
         <div className='flex'>
           <input placeholder='   Try searching capenter' className='searchBar' />
           <div className='post_hero'>
@@ -437,7 +440,7 @@ export default function Landingpage() {
           <p>Checkout Our Blog</p>
         </button>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
