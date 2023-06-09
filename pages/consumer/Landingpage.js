@@ -8,7 +8,7 @@ export default function Landingpage() {
 
   return (
     <div className=''>
-      {/* <Header /> */}
+      <Header />
       <div className='hero mt-4'>
         <p className='hero_header'>Find reliable home service</p>
         <p className='hero_header'>provider near you</p>
@@ -34,38 +34,40 @@ export default function Landingpage() {
       </div>
 
       <div className='land'>
-        <h3 className='secure'>Secured payment and privacy on Loggworks</h3>
-        <div className='card abt_h gap-10  grid grid-cols-3'>
-          <div>
-            <img className='ld_icon' src='../../safe.png' />
-            <p className='card_header'>Privacy Protection</p>
-            <div className='card_item'>
-              <p>You’ll never have to share your personal information with tradesmen or
-                home service professionals on Loggworks.
-                Communicate  with service providers securely through our
-                direct messaging feature until you’re ready to make a booking.</p>
+        <div className='protection'>
+          <h3 className='secure'>Secured payment and privacy on Loggworks</h3>
+          <div className='card abt_h gap-10  grid grid-cols-3'>
+            <div>
+              <img className='ld_icon' src='../../safe.png' />
+              <p className='card_header'>Privacy Protection</p>
+              <div className='card_item'>
+                <p>You’ll never have to share your personal information with tradesmen or
+                  home service professionals on Loggworks.
+                  Communicate  with service providers securely through our
+                  direct messaging feature until you’re ready to make a booking.</p>
+              </div>
             </div>
-          </div>
-          <div>
-            <img className='ld_icon' src='../../card.png' />
-            <p className='card_header'>Payment Protection</p>
-            <div className='card_item'>
-              <p> All your payments are protected by a highly secure Escrow account.
-                Pay in advance or on completion with just a few clicks of a button, whenever you want.</p>
+            <div>
+              <img className='ld_icon' src='../../card.png' />
+              <p className='card_header'>Payment Protection</p>
+              <div className='card_item'>
+                <p> All your payments are protected by a highly secure Escrow account.
+                  Pay in advance or on completion with just a few clicks of a button, whenever you want.</p>
+              </div>
             </div>
-          </div>
-          <div>
-            <img className='ld_icon' src='../../check.png' />
-            <p className='card_header'>Trusted Professional</p>
-            <div className='card_item'>
-              <p>We use the Self-Employed Quality Control Scheme =to comprehensively screen all
-                home service professionals on Loggworks — for your peace of mind.
-              </p>
+            <div>
+              <img className='ld_icon' src='../../check.png' />
+              <p className='card_header'>Trusted Professional</p>
+              <div className='card_item'>
+                <p>We use the Self-Employed Quality Control Scheme =to comprehensively screen all
+                  home service professionals on Loggworks — for your peace of mind.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <p className='explore'>Explore popular services</p>
-        <div className='grid grid-cols-6 gap-4'>
+        <div className='grid grid-cols-6 gap-4 childminderr'>
           <div className='trade_driv'>
             <img className='trade' src='../../ele.png' />
             <div className='shade'>
@@ -124,7 +126,7 @@ export default function Landingpage() {
           </div>
         </div>
         <p className='cartegory'>Explore services by categories</p>
-        <div className='grid grid-cols-8'>
+        <div className='grid grid-cols-8 services_icon'>
           <div>
             <div className='cartegory_icon_border'>
               <img src='../../Icons/vector.png' />
@@ -228,7 +230,7 @@ export default function Landingpage() {
             <p className='tradeMen_view'>+ View All</p>
 
           </div>
-          <div className='grid grid-cols-4 gap-4'>
+          <div className='grid grid-cols-4 gap-4 trading '>
             <div>
               <img className='trade_Card' src='../../img.png' />
               <p className='trade_texts'>Construction</p>
@@ -256,7 +258,7 @@ export default function Landingpage() {
             <p className='childcare_view'>+ View All</p>
 
           </div>
-          <div className='grid grid-cols-4 gap-4'>
+          <div className='grid grid-cols-4 gap-4 trading'>
             <div>
               <img className='trade_Card' src='../../img-4.png' />
               <p className='trade_texts'>Babysitters</p>
@@ -284,7 +286,7 @@ export default function Landingpage() {
             <p className='childcare_view'>+ View All</p>
 
           </div>
-          <div className='grid grid-cols-4 gap-4'>
+          <div className='grid grid-cols-4 gap-4 trading'>
             <div>
               <img className='trade_Card' src='../../img-8.png' />
               <p className='trade_texts'>Event planner</p>
@@ -316,11 +318,11 @@ export default function Landingpage() {
           </div>
           <div className='service_media'>
             <img className='asia' src='../../gyal.png' />
-            <img className='asia_tag2' src='../../cards.png' />
+            <img className='asia_tag' src='../../cards.png' />
 
           </div>
         </div>
-        <div className='testimonial'>
+        {/* <div className='testimonial'>
           <p className='testimonal_header'>We are trusted by many across the UK</p>
           <div>
             <div className='flex'>
@@ -336,13 +338,13 @@ export default function Landingpage() {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
 
 
         <div className='area_of_service'>
           <p className='area'>View Home service professionals in your area.</p>
-          <div className='grid grid-cols-6'>
+          <div className='grid location_tags grid-cols-6'>
             <div>
               <p className='location'>London</p>
               <p className='location'>Bristol</p>
@@ -406,7 +408,7 @@ export default function Landingpage() {
 
         </div>
 
-        <div className='grid grid-cols-3 gap-4 blog'>
+        <div className='grid grid-cols-3 gap-4 blog blogger'>
           <div>
             <img className='blog_img' src='../../blog2.png' />
             <p className='blog_head'>5 Tips for Finding the Right Home Service Professionals.</p>
@@ -440,7 +442,7 @@ export default function Landingpage() {
           <p>Checkout Our Blog</p>
         </button>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

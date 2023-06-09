@@ -25,9 +25,7 @@ $themegreen: #2FA500;
 }
 
 .hero_header {
-
     font-size: 40px;
-
     font-weight: 700;
 }
 
@@ -184,7 +182,8 @@ $themegreen: #2FA500;
 
 .service_media {
     width: 50%;
-    height: 475px;
+    height: 300px;
+    position: relative;
 }
 
 .offer_header {
@@ -274,10 +273,14 @@ $themegreen: #2FA500;
 
 .asia_tag {
     border-radius: 15px;
-    position: relative;
-    bottom: 100px;
+    position: absolute;
     width: 250px;
-    margin-left: 20px;
+    z-index: 1;
+}
+
+.asia {
+    position: absolute;
+    z-index: 0;
 }
 
 .asia_tag2 {
@@ -477,8 +480,288 @@ $themegreen: #2FA500;
     margin-bottom: 64px;
 }
 
+
+
+@media only screen and (max-width: 1024px) {
+    .hero {
+        background-image: url('/hero.png');
+        background-size: cover;
+        background-position: center;
+        height: 529px;
+        padding-left: 50px;
+        padding-top: 104px;
+
+    }
+
+    .shade {
+        width: 145px;
+    }
+
+    .offer_header {
+        line-height: 48px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .offer_text {
+        width: 50%;
+        padding-top: 1px;
+        padding-bottom: 99px;
+        padding-left: 128px;
+        padding-right: 105px;
+    }
+
+    .button_green {
+        background-color: $themegreen;
+        width: 238px;
+        height: 48px;
+        margin-top: 12px;
+        padding: auto;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .offer_text_2 {
+        width: 50%;
+        padding-top: 5px;
+        padding-bottom: 99px;
+        padding-right: 128px;
+        padding-left: 105px;
+    }
+
+
+    .asia_tag2 {
+        border-radius: 15px;
+        position: relative;
+        bottom: 100px;
+        width: 250px;
+        margin-right: 200px;
+        left: 100px;
+    }
+
+    .asia_tag {
+        border-radius: 15px;
+        position: absolute;
+        width: 250px;
+        top: 250px;
+        z-index: 1;
+        height: 90px;
+        margin-left: 150px;
+    }
+
+    .offer_text_2 {
+        width: 50%;
+        padding-top: 49px;
+        padding-bottom: 99px;
+        padding-right: 58px;
+        padding-left: 55px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .location_tags {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    }
+
+    .asia_tag {
+        border-radius: 15px;
+        position: absolute;
+        width: 250px;
+        top: 190px;
+        z-index: 1;
+        height: 90px;
+        margin-left: 50px;
+    }
+
+    .hero_header {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .protection {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .childminderr {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    }
+
+    .hero_subText {
+        font-size: 14px;
+        font-weight: 400;
+        color: #121212;
+        margin-bottom: 44px;
+        margin-top: 14px;
+    }
+
+    .searchBar {
+        height: 38px;
+        width: 270px;
+        margin-right: 10px;
+        border: 1px solid #DFDFDF;
+    }
+
+    .post_hero {
+        height: 38px;
+        color: white;
+        width: 87px;
+        font-weight: 600;
+        background-color: #2FA500;
+        border-radius: 4px;
+        padding-left: 5px;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .offer_text {
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 99px;
+        padding-left: 28px;
+        padding-right: 25px;
+    }
+
+    .offer_header {
+        line-height: 48px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .offer_sub_text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 16px;
+    }
+
+    .button_green {
+        background-color: $themegreen;
+        width: 178px;
+        height: 48px;
+        margin-top: 12px;
+        padding: auto;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .asia {
+        position: absolute;
+        z-index: 0;
+        height: 300px;
+    }
+
+    .shade {
+        width: 205px;
+    }
+
+    .offer_text_2 {
+        width: 50%;
+        padding-top: 19px;
+        padding-bottom: 99px;
+        padding-right: 28px;
+        padding-left: 25px;
+    }
+
+}
+
 @media only screen and (max-width: 425px) {
     .shade {
         width: 100px;
+    }
+
+    .childminderr {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+
+    .feat {
+        display: none;
+    }
+
+    .blogger {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+
+    }
+
+    .services_offer {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .hero {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        height: 529px;
+        padding-left: 30px;
+        padding-top: 104px;
+
+    }
+
+    .service_media {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .offer_text {
+        width: 100%;
+        padding-top: 99px;
+        padding-bottom: 99px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .services_icon {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    }
+
+    .offer_text_2 {
+        width: 100%;
+        padding-top: 99px;
+        padding-bottom: 99px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .trading {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .location_tags {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+    
+    .hero {
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        height: 529px;
+        padding-left: 20px;
+        padding-top: 104px;
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .childminderr {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
     }
 }
