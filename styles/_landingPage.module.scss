@@ -8,7 +8,7 @@ $themegreen: #2FA500;
     padding-left: 100px;
     padding-top: 104px;
     padding-left: 104px;
-
+    z-index: 1;
 }
 
 .land {
@@ -63,6 +63,34 @@ $themegreen: #2FA500;
     font-weight: 600;
     margin-top: 32px;
 }
+
+.asia {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.asia_tag2 {
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    width: 250px;
+    margin-right: 200px;
+    left: 100px;
+}
+.gyal{
+   margin-bottom: 100px;
+   height: 450px;
+}
+.asia_tag {
+    border-radius: 15px;
+    position: absolute;
+    width: 250px;
+    top: 250px;
+    z-index: 1;
+    height: 90px;
+    margin-left: 150px;
+}
+
 
 .tel {
     height: 24px;
@@ -747,7 +775,7 @@ $themegreen: #2FA500;
         grid-template-columns: repeat(2, minmax(0, 1fr));
 
     }
-    
+
     .hero {
         background-image: none;
         background-size: cover;

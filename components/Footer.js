@@ -1,38 +1,57 @@
+import Link from 'next/link'
 import React from 'react'
+import { useRouter } from 'next/router'
 
 export default function Footer() {
+  const router = useRouter()
+
   return (
     <div className='footer '>
       <div className='flex justify-around log_items'>
         <div className='logTab'>
           <img className='ft_logo' src='./footerlogo.png' />
-          <div className='btn_footer btn_footer_ft'>
+          <div onClick={() => {
+            router.push('/professional/LandingPage')
+          }} className='btn_footer btn_footer_ft cursor-pointer'>
             <p className='ml-1'>Become a Professional</p>
           </div>
-          <div className='btn_footer postajpb'>
+          <div onClick={() => {
+            router.push('/message')
+          }} className='btn_footer postajpb cursor-pointer'>
             <p>Post a Job</p>
           </div>
         </div>
         <div>
           <p className='footer_head'>Homeowner</p>
-          <p className='footer_sub'>Post a Job</p>
-          <p className='footer_sub'>How it works</p>
-          <p className='footer_sub'>Contact Us</p>
-          <p className='footer_sub'>Help & FAQ</p>
-          <p className='footer_sub'>User Agreement</p>
+          <Link href='./../consumer/work'>
+            <p className='footer_sub'>How it works</p>
+          </Link>
+          <Link href='./../earn'>
+            <p className='footer_sub'>Earn</p>
+          </Link>
+          <Link href='./../service'>
+            <p className='footer_sub'>User Agreement</p>
+          </Link>
+          <Link href='./../consumer/faq'>
+            <p className='footer_sub'>Help & Contact</p>
+          </Link>
         </div>
         <div>
           <p className='footer_head'>Professional</p>
           <p className='footer_sub'>Sign Up</p>
-          <p className='footer_sub'>Blog</p>
+          <Link href='./../consumer/articles/blog'>
+            <p className='footer_sub'>Blog</p>
+          </Link>
           <p className='footer_sub'>Contact Us</p>
-          <p className='footer_sub'>Help & FAQ</p>
-          <p className='footer_sub'>User Agreement</p>
         </div>
         <div>
           <p className='footer_head'>Loggworks</p>
-          <p className='footer_sub'>About us</p>
+          <Link href='./../about' className='flex  '>
+            <p className='footer_sub '>About </p>
+          </Link>
+          <Link href='./../career' className='flex  '>
           <p className='footer_sub'>Careers</p>
+          </Link>
           <p className='footer_sub'>Partners</p>
           <p className='footer_sub'>Influencer program</p>
         </div>

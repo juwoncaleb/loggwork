@@ -5,18 +5,20 @@ export default function Earn() {
     return (
         <div>
             <Header />
-            <div className='earn_bg mt-4'>
+
+            <div className='connect_bg mt-4'>
                 <div className='consumer_work_text'>
                     <p className='connect_head'>Earn money by inviting <br /> someone to Loggworks</p>
-                    <p className='connect_Sub mt-6'>Loggworks connect homeowners to genuine and reliable service providers  <br /> who provide easy-to-book and hassle-free services.</p>
+                    <p className='connect_Sub mt-6'>Loggworks c <br /> who provide easy-to-book and hassle-free services.</p>
                     <button className='cons_button'>
-                        <p>Connect us</p>
+                        <p>Become an affilaite</p>
                     </button>
                 </div>
             </div>
+           
             <div className='header'>
                 <p className='information mb-10'>How it works</p>
-                <div className='grid grid-cols-3 gap-6'>
+                <div className='grid grid-cols-3 gap-6 earn_grid'>
                     <div className='afil_card'>
                         <img src='./Privacy.png' />
                         <p className='affiate'>Join Loggworks as an affiliate</p>
@@ -39,7 +41,7 @@ export default function Earn() {
                     </div>
                 </div>
 
-                <div className='flex mt-10 justify-between mb-20'>
+                <div className='flex mt-10 justify-between mb-20 hand_div'>
                     <div className='handy_text'>
                         <p className='information '>Perks & Benefit</p>
                         <div className='info_head mt-10'>

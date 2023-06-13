@@ -362,9 +362,23 @@ $themegreen: #2FA500;
         grid-template-columns: repeat(2, minmax(0, 1fr));
 
     }
+
+    .shade_price {
+        position: relative;
+        bottom: 30px;
+        height: 30px;
+        width: 137px;
+        background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        border-radius: 0px 0px 5px 5px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    .pricing_trdes {
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+
+    }
+
     .article_content {
         margin-right: 90px;
         font-size: 16px;
@@ -396,6 +410,19 @@ $themegreen: #2FA500;
 }
 
 @media only screen and (max-width: 425px) {
+    .pricing_trdes {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    }
+    .shade_price {
+        position: relative;
+        bottom: 30px;
+        height: 30px;
+        width: 187px;
+        background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        border-radius: 0px 0px 5px 5px;
+    }
+
     .filter_blog {
         grid-template-columns: repeat(1, minmax(0, 1fr));
 

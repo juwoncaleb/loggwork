@@ -28,7 +28,7 @@ export default function About() {
                 </div>
 
             </div>
-            <div className='card gap-10 abt_rating grid grid-cols-3'>
+            <div className='card gap-10 abt_rating grid grid-cols-3 '>
                 <div>
                     <img className='card_icon' src='./safe.png' />
                     <p className='card_header'>50K+ Jobs Completed</p>
@@ -57,7 +57,7 @@ export default function About() {
 
             <div>
                 <p className='about_value'>Values we hold dear.</p>
-                <div className='grid grid-cols-2 header gap-8'>
+                <div className='grid grid-cols-2 header value_company gap-8'>
                     <div className='greencard'>
                         <img className='sheild' src='./green.png' />
                         <p className='greenHead'>Customer satisfaction</p>

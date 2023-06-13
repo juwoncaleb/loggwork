@@ -1,0 +1,34 @@
+.job_position {
+    padding-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: white;
+    height: 70px;
+    margin-top: 20px;
+    width: 700px;
+    padding-left: 20px;
+    border: 1px solid rgb(206, 200, 200);
+}
+
+@media only screen and (max-width: 768px) {
+    .job_position {
+        padding-top: 20px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        background-color: white;
+        height: 70px;
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 20px;
+        border: 1px solid rgb(206, 200, 200);
+    }
+    
+    .opening {
+        display: flex;
+        flex-direction: column;
+    }
+}

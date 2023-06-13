@@ -7,7 +7,7 @@ export default function Connect() {
 
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div className='connect_bg mt-4'>
                 <div className='consumer_work_text'>
                     <p className='connect_head'>Together we achieve more</p>
@@ -16,7 +16,7 @@ export default function Connect() {
                         <p>Connect us</p>
                     </button>
                 </div>
-            </div>-
+            </div>
             <div className='header'>
                 <div className='flex justify-around toggle_options_connect mb-8'>
                     <div onClick={() => setOpen(1)}  className='cursor-pointer'>
@@ -212,7 +212,7 @@ export default function Connect() {
                     )
                 }
             </div>
-            {/* <Footer /> */}
+            <Footer />
 
         </div>
     )

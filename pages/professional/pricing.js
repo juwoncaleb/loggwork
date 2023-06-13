@@ -4,7 +4,7 @@ import Footer from '../../components/Footer'
 export default function Pricing() {
     return (
         <div className=''>
-            {/* <Header /> */}
+            <Header />
             <div className='blog_div mt-4'>
                 <div>
                     <p className='blog_header'>Pricing Guide</p>
@@ -152,7 +152,7 @@ export default function Pricing() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

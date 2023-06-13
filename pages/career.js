@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 export default function Career() {
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div className='mt-4 header hiring_header '>
                 <p className='hiring_header_text'>Become a part of our team</p>
                 <p className='hiring_subTxt'> If you are passionate about our work and want to be a part of a dynamic and innovative team, .<br />
@@ -13,7 +13,7 @@ export default function Career() {
                 <button className='about_opening_btn mb-20'>
                     <p>View Current Openings</p>
                 </button>
-                <div className='card gap-10 abt_rating grid grid-cols-3'>
+                <div className='card gap-10 abt_rating grid  grid-cols-3'>
                     <div>
                         <img className='card_icon' src='./safe.png' />
                         <p className='card_header'>Competitive Salary</p>
@@ -80,7 +80,7 @@ export default function Career() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

@@ -4,7 +4,7 @@ import Footer from '../../../components/Footer';
 export default function Plumbing() {
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div className='header'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Pricing Guide </p>
@@ -80,7 +80,7 @@ export default function Plumbing() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

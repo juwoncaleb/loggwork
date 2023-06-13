@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer';
 export default function Babysitter() {
     return (
         <div className='' >
-            {/* <Header /> */}
+            <Header />
             <div className='header mt-4 mb-14'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Blog </p>
@@ -98,7 +98,7 @@ export default function Babysitter() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
 
         </div>
     )

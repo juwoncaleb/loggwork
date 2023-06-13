@@ -342,7 +342,7 @@ export default function Landingpage() {
 
 
 
-        <div className='area_of_service'>
+        <div className='area_of_service mt-10'>
           <p className='area'>View Home service professionals in your area.</p>
           <div className='grid location_tags grid-cols-6'>
             <div>

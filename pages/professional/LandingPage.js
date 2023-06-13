@@ -52,9 +52,10 @@ export default function LandingPage() {
                             </div>
                         </div>
                     </div>
-                   
+                    <center>
                         <h3 className='secure mb-2'>How it works</h3>
                         <p className='md:mb-14 mb-6 get_started'>Get started using loggworks in 4 easy steps.</p>
+                    </center>
                     <div className='flex abt_h justify-around mt-24'>
                         <img src='../../babs.png' />
                         <div className='prof_land_text'>
@@ -285,7 +286,7 @@ export default function LandingPage() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

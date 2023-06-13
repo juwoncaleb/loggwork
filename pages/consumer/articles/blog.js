@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer';
 export default function Blog() {
     return (
         <div className=''>
-            {/* <Header /> */}
+            <Header />
             <div className='blog_div mt-4'>
                 <div>
                     <p className='blog_header'>Blog & Articles</p>
@@ -65,7 +65,9 @@ export default function Blog() {
 
                     </div>
                 </div>
-                <p className='blogpost_list'>Past Articles</p>
+                <center>
+                    <p className='blogpost_list mt-12 mb-6'>Past Articles</p>
+                </center>
                 <div className='blog_list grid grid-cols-3 gap-4'>
                     <div>
                         <img className='blog_image' src='./../../write.png' />
@@ -183,7 +185,7 @@ export default function Blog() {
                     Load more
                 </button>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

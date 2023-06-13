@@ -1,4 +1,4 @@
-.earn_bg {
+.earner_bg {
     background-image: url('/screen.png');
     background-size: cover;
     background-position: center;
@@ -7,27 +7,69 @@
     padding-top: 104px;
     padding-left: 104px;
 }
-.information{
-    margin-top: 64px;
-  font-size: 32px;
-  font-weight: 700;  
+
+.connect_bg {
+    background-image: url('/shake.png');
+    background-size: cover;
+    background-position: center;
+    height: 529px;
+    padding-left: 100px;
+    padding-top: 104px;
+    padding-left: 104px;
 }
-.info_text{
+
+.information {
+    margin-top: 64px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.info_text {
     font-size: 20px;
     font-weight: 700;
-    
+
 }
-.info_text_head{
-font-size: 20px;
-font-weight: 700;
+
+.info_text_head {
+    font-size: 20px;
+    font-weight: 700;
 }
-.afil_card{
+
+.afil_card {
     max-width: 400px;
 }
-.affiate{
+
+.affiate {
     font-size: 20px;
     font-weight: 700;
 }
-.handy_text{
+
+.handy_text {
     padding: 50px 100px 80px;
+}
+
+@media only screen and (max-width: 425px) {
+    .earn_grid {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .handy_text {
+        padding: 0px 00px 0px;
+    }
+
+    .cons_button {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hand_div {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
 }

@@ -8,7 +8,7 @@ export default function Faq() {
 
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <div className='consumer_faq mt-4'>
         <p className='consumer_faq_head'>Get all the help you need.</p>
         <p className='consumer_faq_sub'> Loggworks connect homeowners to genuine and reliable service </p>
@@ -353,7 +353,7 @@ export default function Faq() {
           </div>
         )
       }
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

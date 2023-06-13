@@ -4,7 +4,7 @@ import Footer from '../../../components/Footer';
 export default function Childcare() {
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div className='header'>
                 <div className='flex  mt-4 mb-4'>
                     <p className='hiring_small_link'>Hiring guide </p>
@@ -145,7 +145,7 @@ export default function Childcare() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

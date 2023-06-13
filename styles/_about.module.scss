@@ -101,7 +101,7 @@
 
 .join_text {
     font-size: 18px !important;
-
+    font-weight: 400 !important;
 }
 
 .about_join_us {
@@ -114,4 +114,57 @@
 .abt_h {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .ab_head {
+        margin-top: 56px;
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .abt_rating {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .abt_rating {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join_text {
+        font-size: 15px !important;
+
+        font-weight: 400 !important;
+
+    }
+
+    .misson_sub {
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 56px;
+    }
+
+    .misson_head {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 56px;
+    }
+
+    .value_company {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab_head {
+        margin-top: 56px;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
 }
