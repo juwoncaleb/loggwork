@@ -63,28 +63,22 @@ export default function Header() {
               </div>
               {isVisible && <div>
                 <div className='flex'>
-                  <p className='sub_menu_bar'>Service </p>
-                  <img className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
+                  <p className='sub_menu_bar'>Catering </p>
                 </div>
                 <div className='flex'>
-                  <p className='sub_menu_bar'>Service </p>
-                  <img className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
+                  <p className='sub_menu_bar'>Childcare </p>
                 </div>
                 <div className='flex'>
-                  <p className='sub_menu_bar'>Service </p>
-                  <img className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
+                  <p className='sub_menu_bar'>Cleaning </p>
                 </div>
                 <div className='flex'>
-                  <p className='sub_menu_bar'>Service </p>
-                  <img className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
+                  <p className='sub_menu_bar'>Entertainment </p>
                 </div>
                 <div className='flex'>
-                  <p className='sub_menu_bar'>Service </p>
-                  <img className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
+                  <p className='sub_menu_bar'>Appliance Repair </p>
                 </div>
                 <div className='flex'>
-                  <p className='sub_menu_bar'>Service </p>
-                  <img className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
+                  <p className='sub_menu_bar'>Mobile Mechanic </p>
                 </div>
               </div>}
             </div>
