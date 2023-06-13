@@ -111,7 +111,7 @@ export default function Childcare() {
                             <p className='blog_post_text '>18th Jun, 2023</p>
                         </div>
                     </div>
-                    <div className='ml-10 mt-14'>
+                    {/* <div className='ml-10 mt-14'>
                         <p className='child_filter'>Filters</p>
                         <div className='flex justify-between chldfilter'>
                             <p> Categories/Specializations</p>
@@ -142,7 +142,7 @@ export default function Childcare() {
                             </div>
                             <p>Nursery</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Footer />

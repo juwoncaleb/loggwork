@@ -63,7 +63,7 @@ export default function Career() {
                     </div>
                 </div>
                 <div className='opening flex justify-around'>
-                    <p className='current_opein'>Curreny <br /> Opening</p>
+                    <p className='current_opein'>Current <br /> Opening</p>
                     <div>
                         <div className='job_position'>
                             <p>Senior frontend developer</p>

@@ -9,7 +9,10 @@ export default function Footer() {
     <div className='footer '>
       <div className='flex justify-around log_items'>
         <div className='logTab'>
+          <Link href='./'>
           <img className='ft_logo' src='./footerlogo.png' />
+
+          </Link>
           <div onClick={() => {
             router.push('/professional/LandingPage')
           }} className='btn_footer btn_footer_ft cursor-pointer'>
@@ -23,33 +26,33 @@ export default function Footer() {
         </div>
         <div>
           <p className='footer_head'>Homeowner</p>
-          <Link href='./../consumer/work'>
+          <Link href='../../consumer/work'>
             <p className='footer_sub'>How it works</p>
           </Link>
-          <Link href='./../earn'>
+          <Link href='../../earn'>
             <p className='footer_sub'>Earn</p>
           </Link>
-          <Link href='./../service'>
+          <Link href='../../service'>
             <p className='footer_sub'>User Agreement</p>
           </Link>
-          <Link href='./../consumer/faq'>
+          <Link href='../../consumer/faq'>
             <p className='footer_sub'>Help & Contact</p>
           </Link>
         </div>
         <div>
           <p className='footer_head'>Professional</p>
           <p className='footer_sub'>Sign Up</p>
-          <Link href='./../consumer/articles/blog'>
+          <Link href='../../consumer/articles/blog'>
             <p className='footer_sub'>Blog</p>
           </Link>
           <p className='footer_sub'>Contact Us</p>
         </div>
         <div>
           <p className='footer_head'>Loggworks</p>
-          <Link href='./../about' className='flex  '>
+          <Link href='../../about' className='flex  '>
             <p className='footer_sub '>About </p>
           </Link>
-          <Link href='./../career' className='flex  '>
+          <Link href='../../career' className='flex  '>
           <p className='footer_sub'>Careers</p>
           </Link>
           <p className='footer_sub'>Partners</p>

@@ -61,22 +61,22 @@ export default function About() {
                     <div className='greencard'>
                         <img className='sheild' src='./green.png' />
                         <p className='greenHead'>Customer satisfaction</p>
-                        <p>We pride in providing excellent service to customers and ensuring that their needs are met.</p>
+                        <p>We pride in providing excellent service to customers <br/> and ensuring that their needs are met.</p>
                     </div>
                     <div className='greencard'>
                         <img className='sheild' src='./green.png' />
                         <p className='greenHead '>Professionalism</p>
-                        <p>We maintain high standards of quality and professionalism in all aspects of our business dealings.</p>
+                        <p>We maintain high standards of quality and professionalism in <br/> all aspects of our business dealings.</p>
                     </div>
                     <div className='greencard'>
                         <img className='sheild' src='./green.png' />
                         <p className='greenHead'>Teamwork</p>
-                        <p>We are working together with others towards a common goal and supporting one another in the process.</p>
+                        <p>We are working together with others towards a common goal and <br/> supporting one another in the process.</p>
                     </div>
                     <div className='greencard'>
                         <img className='sheild' src='./green.png' />
                         <p className='greenHead'>Creativity and innovation</p>
-                        <p>At Loggworks we are open to new ideas and constantly seeking ways to improve and evolve the business.</p>
+                        <p>At Loggworks we are open to new ideas and constantly seeking ways <br/> to improve and evolve the business.</p>
                     </div>
                 </div>
             </div>

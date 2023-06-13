@@ -77,10 +77,12 @@ $themegreen: #2FA500;
     margin-right: 200px;
     left: 100px;
 }
-.gyal{
-   margin-bottom: 100px;
-   height: 450px;
+
+.gyal {
+    margin-bottom: 100px;
+    height: 450px;
 }
+
 .asia_tag {
     border-radius: 15px;
     position: absolute;
@@ -793,3 +795,25 @@ $themegreen: #2FA500;
 
     }
 }
+
+@media only screen and (min-width: 1700px) {
+    .phone_frame {
+        margin-top: 106px;
+        background-color: #2E2E2E;
+        padding-left: 235px !important;
+        padding-right: 266px !important;
+        border-radius: 15px;
+    }
+    
+    .hero {
+        background-image: url('/hero.png');
+        background-size: cover;
+        background-position: center;
+        height: 529px;
+        padding-left: 250px;
+        padding-top: 104px;
+        padding-left: 104px;
+        z-index: 1;
+    }
+}
+

@@ -19,6 +19,15 @@
 .stages_text {
     position: relative;
     bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.stages_text_norm {
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .stage_line {
@@ -29,7 +38,7 @@
 
 }
 
-.stage_line_inacive{
+.stage_line_inacive {
     height: 70px;
     width: 5px;
     background-color: #DFDFDF;
@@ -196,4 +205,41 @@
 .upload_image_texts {
     text-align: center;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    .land {
+        margin-right: 10%;
+        margin-left: 10%;
+
+    }
+
+    .message_form {
+        margin-left: 40px;
+    }
+
+    .stages_text_norm {
+        position: relative;
+        bottom: 5px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .stages_text {
+        position: relative;
+        bottom: 5px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .post_header {
+        margin-left: 280px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .post_header {
+        margin-left: 80px;
+        font-size: 18px;
+        font-weight: 600;
+    }
 }

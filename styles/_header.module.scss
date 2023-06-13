@@ -217,7 +217,10 @@
     }
 
 }
-
+.desktop_header{
+    margin-left: 4%;
+    margin-right: 4%;
+}
 @media only screen and (max-width: 760px) {
     .desktop_header {
         display: none;

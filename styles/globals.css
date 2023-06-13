@@ -204,6 +204,11 @@
     margin-top: 3px;
   }
 }
+.desktop_header {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 @media only screen and (max-width: 760px) {
   .desktop_header {
     display: none;
@@ -981,6 +986,25 @@
 @media only screen and (max-width: 320px) {
   .childminderr {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .phone_frame {
+    margin-top: 106px;
+    background-color: #2E2E2E;
+    padding-left: 235px !important;
+    padding-right: 266px !important;
+    border-radius: 15px;
+  }
+  .hero {
+    background-image: url("/hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 529px;
+    padding-left: 250px;
+    padding-top: 104px;
+    padding-left: 104px;
+    z-index: 1;
   }
 }
 .footer {
@@ -1860,6 +1884,10 @@
   }
 }
 @media only screen and (min-width: 1600px) {
+  .header {
+    margin-left: 17%;
+    margin-right: 17%;
+  }
   .blog_header_div {
     margin-left: auto;
   }
@@ -2587,6 +2615,15 @@
 .stages_text {
   position: relative;
   bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.stages_text_norm {
+  position: relative;
+  bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .stage_line {
@@ -2759,6 +2796,37 @@
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 425px) {
+  .land {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .message_form {
+    margin-left: 40px;
+  }
+  .stages_text_norm {
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .stages_text {
+    position: relative;
+    bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .post_header {
+    margin-left: 280px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .post_header {
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
 .job_position {
   padding-top: 20px;
   border-radius: 8px;
@@ -2791,4 +2859,5 @@
     display: flex;
     flex-direction: column;
   }
-}/*# sourceMappingURL=globals.css.map */
+}
+@im;/*# sourceMappingURL=globals.css.map */

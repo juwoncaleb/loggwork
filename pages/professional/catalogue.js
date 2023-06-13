@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 export default function Catalogue() {
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div className='catalogue_bg mt-4'>
                 <div className='catalogue_header'>
                     <p className='service_professional'>Become a trusted home  <br /> service professional.</p>
@@ -116,7 +116,7 @@ export default function Catalogue() {
 
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

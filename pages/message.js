@@ -9,6 +9,10 @@ export default function Message() {
     setIsModalOpen(!isModalOpen);
   };
   const [stages, setStage] = useState(1)
+  const [location, setLocation] = useState()
+  const [budget, setBudget] = useState()
+  const [zip, setZip] = useState()
+
   const [open, isOpen] = useState(1);
   const [files, setFiles] = useState([])
   const [images, setImages] = useState('')
@@ -55,31 +59,21 @@ export default function Message() {
             <div className=''>
               <div className='flex'>
                 <div>
-                  <div className='loaded_message mt-2' />
-                  <div className='stage_line' />
-                </div>
-                <p className='stages_text mt-2'>Job details</p>
-              </div>
-              <div className='flex'>
-                <div>
-                  <div className={stages === 2 ? "loaded_message" : "loaded_message_inactive"} />
-                  <div className={stages === 2 ? "stage_line" : "stage_line_inacive"} />
-                </div>
-                <p className='stages_text'>Location</p>
-              </div>
-              <div className='flex'>
-                <div>
-                  <div className={open === 3 ? "loaded_message" : "loaded_message_inactive"} />
-                  <div className={stages === 3 ? "stage_line" : "stage_line_inacive"} />
-                </div>
-                <p className='stages_text'>Budget</p>
-              </div>
-              <div className='flex'>
-                <div
-                  className={open === 4 ? "loaded_message" : "loaded_message_inactive"}>
 
                 </div>
-                <p className='stages_text'>Upload images</p>
+                <p className='stages_text_norm mt-2'>Job details</p>
+              </div>
+              <div className='flex mt-8'>
+
+                <p className={location === 2 ? "stages_text_norm" : "stages_text"}>Location</p>
+              </div>
+              <div className='flex mt-8'>
+
+                <p className={budget === 2 ? "stages_text_norm" : "stages_text"}>Budget</p>
+              </div>
+              <div className='flex mt-8'>
+                
+              <p className={zip === 2 ? "stages_text_norm" : "stages_text"}>Upload Images</p>
               </div>
             </div>
 
@@ -99,7 +93,7 @@ export default function Message() {
                       <p className='mt-3 ml-2 form_text'>Category</p>
                       <img className='cart_arrow mt-4 mr-2' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
                     </div>
-                    <div onClick={() => { setStage(2) }} className='job_btn'>
+                    <div onClick={() => { setStage(2); setLocation(2) }} className='job_btn'>
                       <p className='form_text'>Enter location & Date</p>
                     </div>
                   </div>
@@ -114,7 +108,7 @@ export default function Message() {
                     <p className='form_text'>Location</p>
                     <input placeholder='  Enter postcode' className='message_input mb-2' />
                     <p className='address_shade_text mb-8'>Street address , Postcode , P.O. Box </p>
-                    <div onClick={() => { setStage(3) }} className='location_button'>
+                    <div onClick={() => { setStage(3); setBudget(2) }} className='location_button'>
                       <p className='form_text'>Enter a Budget</p>
                     </div>
                   </div>
@@ -132,7 +126,7 @@ export default function Message() {
                       <input placeholder='  $' className='message_input mb-2' />
                     </div>
 
-                    <div onClick={() => { setStage(4) }} className='job_btn mt-4'>
+                    <div onClick={() => { setStage(4) ; setZip(2) }} className='job_btn mt-4'>
                       <p className='form_text'>Upload Images</p>
                     </div>
                   </div>
@@ -147,7 +141,7 @@ export default function Message() {
                     <div>
                       <p className='form_text'>Upload an image (Optional)</p>
 
-                      <div className='grid grid-cols-4 mt-6 '>
+                      <div className='grid md:grid-cols-4 grid-cols-2 mt-6 '>
                         <div className='image_upload' {...getRootProps()}>
                           <p>+</p>
                           <input {...getInputProps()} />
