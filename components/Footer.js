@@ -3,10 +3,10 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='footer '>
-      <div className='flex justify-around'>
+      <div className='flex justify-around log_items'>
         <div className='logTab'>
           <img className='ft_logo' src='./footerlogo.png' />
-          <div className='btn_footer'>
+          <div className='btn_footer btn_footer_ft'>
             <p className='ml-1'>Become a Professional</p>
           </div>
           <div className='btn_footer postajpb'>

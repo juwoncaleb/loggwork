@@ -8,7 +8,7 @@ export default function LandingPage() {
 
     return (
         <div>
-            {/* <Header /> */}
+            <Header />
             <div>
                 <div className='prof mt-4'>
                     <p className='hero_header'>Get ahead in your chosen profession</p>

@@ -15,15 +15,17 @@
     font-size: 14px;
     color: white;
 }
-.straight{
+
+.straight {
     height: 17px;
     background-color: #CCCCCC;
     margin-left: 10px;
-    margin-right:10px;
+    margin-right: 10px;
     width: 1px;
     margin-top: 1px;
-    
+
 }
+
 .footer_line {
     margin-top: 71px;
     margin-left: 10px;
@@ -68,4 +70,111 @@
 
 .logTab {
     margin-right: 105px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logTab {
+        margin-right: 55px;
+    }
+
+    .footer {
+        background-color: black;
+        padding-top: 64px;
+        padding-left: 42px;
+        padding-right: 54px;
+        padding-bottom: 47px;
+    }
+
+    .footer_head {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 52px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .logTab {
+        margin-right: 55px;
+    }
+
+    .btn_footer {
+        width: 105px;
+        height: 30px;
+        color: white;
+        border: white 1px solid;
+        border-radius: 7px;
+        margin-top: 33px;
+        padding-left: 11px;
+        padding-top: 3px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .btn_footer_ft {
+        width: 105px;
+        height: 40px;
+        color: white;
+        border: white 1px solid;
+        border-radius: 7px;
+        margin-top: 33px;
+        padding-left: 11px;
+        padding-top: 1px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+
+    .log_items {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
+
+    .footer_sub {
+        font-size: 10px;
+        color: white;
+        display: grid;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .logTab {
+        margin-right: 55px;
+    }
+
+    .btn_footer {
+        width: 90px;
+        height: 30px;
+        color: white;
+        border: white 1px solid;
+        border-radius: 7px;
+        margin-top: 33px;
+        padding-left: 11px;
+        padding-top: 3px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .btn_footer_ft {
+        width: 90px;
+        height: 40px;
+        color: white;
+        border: white 1px solid;
+        border-radius: 7px;
+        margin-top: 33px;
+        padding-left: 11px;
+        padding-top: 1px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+
+    .log_items {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    }
 }
