@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-export default function signin() {
+export default function Signin() {
 
     return (
         <div className='flex justify-between'>
             {/* SIGN UP PAGE */}
             <div className='signin_bg'>
                 <img className='fixes_img' src='../../fixes.png' />
-                <img className='pro_sign_card' src='../../signin_test.png' />
+                <img className='pro_sign_card' src='../../signup_test.png' />
 
             </div>
             <div className='prof_signin_form'>
                 <div className='pro_signin_form_details'>
-                    <p className='pro_signin_cta_header'>Log in to Loggworks</p>
+                    <p className='pro_signin_cta_header'>Join Loggworks for free</p>
                     <p className='pro_signin_input_title'>Phone number</p>
                     <div className='flex mt-3'>
                         <div className='flex  pro_phone_dropdown'>
@@ -26,7 +26,7 @@ export default function signin() {
                     <p className='pro_signin_forgot_password mt-6 mb-2'>Forgot password ?</p>
 
                     <button className='login_btn'>
-                        Log in
+                        Verify phone number
                     </button>
                     <div className='flex justify-between or
                     '>
@@ -36,13 +36,13 @@ export default function signin() {
                     </div>
                     <button className='facebook_button justify-center'>
                         <img width="25" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" alt="facebook-new" />
-                        <p className='ml-4'>Log in with Facebook</p>
+                        <p className='ml-4'>Sign up with Facebook</p>
                     </button>
                     <button className='google_button justify-center'>
                         <img width="25" height="48" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo" />
-                        <p className='ml-4'>Log in with Facebook</p>
+                        <p className='ml-4'>Sign up with Facebook</p>
                     </button>
-                    <p className='new_accounr'>Do not have an account <span className='no_account'>Sign up</span></p>
+                    <p className='new_accounr'> Already have an account? <span className='no_account'>Log up</span></p>
                 </div>
             </div>
         </div>

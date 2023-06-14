@@ -10,7 +10,7 @@ export default function Reset_success() {
 
                     <img className='mt-10' src='../../emaile.png' />
                     <p className='pro_signin_cta_header'>Password reset email sent.</p>
-                    <p>A reset link has been sent to your mailbox. Check and click the link to reset password.</p>
+                    <p className='reset_sub_text'>A reset link has been sent to your mailbox. Check and click the link to reset password.</p>
                     <p className='new_accounr'>Still have issues resetting your password? <span className='no_account support_link'>Contact Support</span></p>
                     <p className='mt-8 back_login mb-10'>Back to login</p>
 

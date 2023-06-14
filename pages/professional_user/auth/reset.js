@@ -8,9 +8,9 @@ export default function Reset() {
 
                 <div className='reset_form'>
                     <p className='pro_signin_cta_header'>Reset Password</p>
-                    <p>Please enter your email address and we will send you a password reset link</p>
+                    <p className='reset_sub_text'>Please enter your email address and we will send you a password reset link</p>
                     <div className='reset_bar'>
-                        <p className='pro_signin_input_title mt-6 mb-2'>Password</p>
+                        <p className='pro_signin_input_title mt-6 mb-2'>Email</p>
                         <input className='pro_signin_input ' />
                     </div>
                     <button className='button_green'>
