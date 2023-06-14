@@ -98,9 +98,10 @@
 .reset_form {
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.041);
+    box-shadow: 0 2px 4px rgba(153, 152, 152, 0.041);
     padding: 20px;
     width: 500px;
+    border-radius: 10px;
 
 }
 
@@ -126,7 +127,12 @@
 .or {
     margin-top: 20px;
 }
-.back_login{
+
+.back_login {
     color: #2FA500;
+    text-decoration: underline;
+}
+
+.support_link {
     text-decoration: underline;
 }
