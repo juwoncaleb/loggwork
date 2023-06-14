@@ -18,11 +18,11 @@ export default function Verfication() {
                             <p>+44 7911 123455</p> <p className='no_account verfic_num'>Edit ?</p>
                         </div>
                         <div className='grid grid-cols-5 gap-2  '>
-                            <input className='otp_input' />
-                            <input className='otp_input' />
-                            <input className='otp_input' />
-                            <input className='otp_input' />
-                            <input className='otp_input' />
+                            <input className='otp_input center_input' />
+                            <input className='otp_input center_input' />
+                            <input className='otp_input center_input' />
+                            <input className='otp_input center_input' />
+                            <input className='otp_input center_input' />
 
                         </div>
                         <p className='timeout mb-20'>58s</p>
