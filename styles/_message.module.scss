@@ -7,6 +7,11 @@
     width: 20px;
 }
 
+.forward_arrow {
+    transform: rotate(180deg);
+    margin-top: 3px;
+}
+
 .back_arrow_div {
     width: 35px;
     height: 35px;
@@ -208,6 +213,11 @@
 }
 
 @media only screen and (max-width: 425px) {
+    .message_nav {
+        display: none;
+    }
+
+    
     .land {
         margin-right: 10%;
         margin-left: 10%;
@@ -237,6 +247,7 @@
         font-size: 17px;
         font-weight: 700;
     }
+
     .post_header {
         margin-left: 80px;
         font-size: 18px;
