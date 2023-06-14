@@ -1,0 +1,132 @@
+.signin_bg {
+    width: 50%;
+
+}
+
+
+.prof_signin_form {
+    width: 50%;
+    padding-top: 84px;
+    display: flex;
+
+}
+
+.pro_sign_card {
+    position: relative;
+    bottom: 170px;
+}
+
+.pro_signin_cta_header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.pro_signin_form_details {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pro_signin_input_title {
+    text-align: left !important;
+    color: #4B4B4B;
+}
+
+.pro_phone_dropdown {
+    background-color: #d8d5d56b;
+    height: 48px;
+    padding: 7px;
+    border: 1px solid #DFDFDF;
+}
+
+.pro_signin_forgot_password {
+    text-align: right !important;
+    text-decoration: underline;
+
+}
+
+.pro_signin_input {
+    height: 48px;
+    width: 100%;
+
+    border: 1px solid #DFDFDF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.login_btn {
+    height: 48px;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+
+}
+
+.facebook_button {
+    margin-top: 28px;
+    border-radius: 5px;
+    padding-top: 12px;
+    width: 100%;
+    color: white;
+    height: 48px;
+    font-weight: 500;
+    display: flex;
+    background-color: dodgerblue;
+}
+
+.google_button {
+    margin-top: 28px;
+    border-radius: 5px;
+    padding-top: 12px;
+    width: 100%;
+    color: dodgerblue;
+    height: 48px;
+    font-weight: 500;
+    display: flex;
+    border: 1px solid dodgerblue;
+}
+
+.reset_div {
+    padding-top: 30px;
+}
+
+.reset_form {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.041);
+    padding: 20px;
+    width: 500px;
+
+}
+
+.reset_bar {
+    width: 400px;
+}
+
+.new_accounr {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.no_account {
+    color: #2FA500;
+}
+
+.login_line {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+}
+
+.or {
+    margin-top: 20px;
+}
+.back_login{
+    color: #2FA500;
+    text-decoration: underline;
+}
