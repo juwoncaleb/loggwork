@@ -630,6 +630,8 @@ export default function Landingpage() {
           <div>
 
           </div>
+
+          
           <div className='phone_frame flex justify-between'>
             <motion.img initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}

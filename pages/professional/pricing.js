@@ -31,7 +31,12 @@ export default function Pricing() {
                     </div>
                 </div>
                 <div className='header'>
-                    <div className='grid pricing_trdes md:grid-cols-6  gap-4'>
+                    <motion.div initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} className='grid pricing_trdes md:grid-cols-6  gap-4'>
                         <div className='trade_driv'>
                             <img className='prize' src='./../../image.png' />
                             <div className='shade_price'>
@@ -114,9 +119,14 @@ export default function Pricing() {
 
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
                     <p className='mt-2 mb-2 service_head'>All Services</p>
-                    <div className='grid md:grid-cols-4 grid-cols-2  mb-14'>
+                    <motion.div initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} className='grid md:grid-cols-4 grid-cols-2  mb-14'>
                         <div>
                             <p className='location cursor-pointer'>Plumbing repairs</p>
                             <p className='location cursor-pointer'>Gutter cleaning and repairs</p>
@@ -164,7 +174,7 @@ export default function Pricing() {
                             <p className='location cursor-pointer'>Private Chef</p>
 
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <Footer />
             </motion.div>

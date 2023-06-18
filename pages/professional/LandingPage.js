@@ -37,7 +37,12 @@ export default function LandingPage() {
                     <div className='header'>
                         <h3 className='secure'>Secured payment and privacy on Loggworks</h3>
 
-                        <div className='card abt_h gap-10  grid grid-cols-3 '>
+                        <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }} className='card abt_h gap-10  grid grid-cols-3 '>
                             <div>
                                 <img src='../../Privacy.png' />
                                 <p className='card_header mt-4'>Cut business costs.</p>
@@ -63,32 +68,72 @@ export default function LandingPage() {
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
                         <center>
-                            <h3 className='secure mb-2'>How it works</h3>
-                            <p className='md:mb-14 mb-6 get_started'>Get started using loggworks in 4 easy steps.</p>
+                            <motion.h3 initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8,
+                                }} className='secure mb-2'>How it works</motion.h3>
+                            <motion.p initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8,
+                                }} className='md:mb-14 mb-6 get_started'>Get started using loggworks in 4 easy steps.</motion.p>
                         </center>
                         <div className='flex abt_h justify-around mt-24'>
-                            <img src='../../babs.png' />
-                            <div className='prof_land_text'>
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8, delay: 0.25
+                                }} src='../../babs.png' />
+                            <motion.div initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8,
+                                }} className='prof_land_text'>
                                 <p className='prof_land_text_head '>Sign up as a service provider.</p>
                                 <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
-                            </div>
+                            </motion.div>
                         </div>
                         <div className='flex abt_h justify-around professional_card pro_card_rev'>
-                            <div className='prof_land_text'>
+                            <motion.div initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8,
+                                }} className='prof_land_text'>
                                 <p className='prof_land_text_head'>Receive requests from clients..</p>
                                 <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
-                            </div>
-                            <img src='../../mail.png' />
+                            </motion.div>
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8, delay: 0.25
+                                }} src='../../mail.png' />
 
                         </div>
                         <div className='flex abt_h justify-around professional_card mb-10'>
-                            <img src='../../fee.png' />
-                            <div className='prof_land_text'>
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8,
+                                }} src='../../fee.png' />
+                            <motion.div initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8, delay: 0.25
+                                }} className='prof_land_text'>
                                 <p className='prof_land_text_head'>Complete the job and get paid.</p>
                                 <p>You’ll never have to share your personal information with tradesmen or home service professionals on Loggworks. Communicate with service providers securely through our direct messaging feature until you’re ready to make a booking.</p>
-                            </div>
+                            </motion.div>
                         </div>
                         <div className='flex abt_h justify-around professional_card pro_card_rev '>
                             <div className='prof_land_text'>
@@ -100,7 +145,12 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div className='header flex justify-around community_card'>
-                        <div className='cape'>
+                        <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }} className='cape'>
                             <h3 className='secure  mb-6'>Join our growing <br />communiunity of <br />professional</h3>
                             <div className='join_prof_texts'>
                                 <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque iaculis cras tortor felis
@@ -109,12 +159,32 @@ export default function LandingPage() {
                             <div className='pro_hero mt-8'>
                                 <p>Become a professional</p>
                             </div>
-                        </div>
+                        </motion.div>
                         <div className='grid grid-cols-2 gap-6 ml-8'>
-                            <img src='../../teach.png' />
-                            <img className='mt-6' src='../../flo.png' />
-                            <img src='../../civ.png' />
-                            <img className='mt-6' src='../../weed.png' />
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8,
+                                }} src='../../teach.png' />
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8, delay: 0.15
+                                }} className='mt-6' src='../../flo.png' />
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8, delay: 0.2
+                                }} src='../../civ.png' />
+                            <motion.img initial={{ opacity: 0, y: 10 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    type: 'spring', stiffness: 100, damping: 10, duration
+                                        : 0.8, delay: 0.25
+                                }} className='mt-6' src='../../weed.png' />
 
                         </div>
                     </div>
@@ -122,8 +192,18 @@ export default function LandingPage() {
 
                 </div>
                 <div className='phone_frame header flex justify-between'>
-                    <img className='phone' src='../../phone.png' />
-                    <div className='phone_text'>
+                    <motion.img initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8, delay: 0.22
+                        }} className='phone' src='../../phone.png' />
+                    <motion.div initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} className='phone_text'>
                         <p className='access'>Access Loggworks on your mobile phone</p>
                         <p className='access_subText'>Enjoy the full experience of Loggworks on our mobile app. What’s more?
                             <br />
@@ -131,7 +211,7 @@ export default function LandingPage() {
                         <button className='access_button '>
                             Coming soon
                         </button>
-                    </div>
+                    </motion.div>
 
                 </div>
                 <div className='header '>

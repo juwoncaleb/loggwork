@@ -61,6 +61,9 @@ export default function Header() {
           opener === 2 && (
             <div className='sub_header flex justify-between'>
               <div className='flex sub_head_text'>
+                <Link href='/consumer/work' className=' '>
+                  <p className='sub_menu_bar'>How we work </p>
+                </Link>
                 <Link href='/about' className=' '>
                   <p className='sub_menu_bar'>About </p>
                 </Link>

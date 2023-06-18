@@ -4,7 +4,7 @@ import Footer from '../../components/Footer'
 import { AnimatePresence, motion, stagger, useScroll, useTransform, } from "framer-motion"
 import { useRouter } from 'next/router'
 export default function Work() {
-    
+
     const router = useRouter()
 
     return (
@@ -32,36 +32,81 @@ export default function Work() {
                 </div>
                 <div className='header'>
                     <div className='flex abt_h justify-around mt-24'>
-                        <img src='../../f1.png' />
-                        <div className='prof_land_text'>
+                        <motion.img initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }} src='../../f1.png' />
+                        <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8, delay: 0.25
+                            }} className='prof_land_text'>
                             <p className='prof_land_text_head '>Search for nearby service provider.</p>
                             <p>Easily find reliable home service professionals in your area. Enter your location and service needed, then filter results by price, availability, and ratings.</p>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className='flex abt_h justify-around professional_card pro_card_rev'>
-                        <div className='prof_land_text'>
+                        <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }} className='prof_land_text'>
                             <p className='prof_land_text_head'>Get a personalized quotation for the required home service.</p>
                             <p>Recieve a personalized quote from your chosen provider. Compare prices and choose the best option for your budget and timeline.</p>
-                        </div>
-                        <img src='../../f2.png' />
+                        </motion.div>
+                        <motion.img initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8, delay: 0.25
+                            }} src='../../f2.png' />
 
                     </div>
                     <div className='flex abt_h justify-around professional_card mb-10'>
-                        <img className='f4' src='../../f3.png' />
-                        <div className='prof_land_text'>
+                        <motion.img initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }} className='f4' src='../../f3.png' />
+                        <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,delay:0.25
+                            }} className='prof_land_text'>
                             <p className='prof_land_text_head'>Rate and review your completed bookings..</p>
                             <p>Help us ensure the quality of our platform and assist other users in making informed decisions by rating and reviewing your provider. Earn rewards for every review submitted.</p>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className='flex abt_h justify-around professional_card pro_card_rev '>
-                        <div className='prof_land_text'>
+                        <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }}  className='prof_land_text'>
                             <p className='prof_land_text_head'>Earn cashbacks and rewards.</p>
                             <p>Enjoy our loyalty rewards program, including cashback on every booking, referral bonuses, and much more.</p>
-                        </div>
-                        <img src='../../f4.png' />
+                        </motion.div>
+                        <motion.img initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,delay:0.25
+                            }}  src='../../f4.png' />
 
                     </div>
-                    <div className='flex justify-between services_offer mb-10'>
+                    <motion.div initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                                type: 'spring', stiffness: 100, damping: 10, duration
+                                    : 0.8,
+                            }}  className='flex justify-between services_offer mb-10'>
                         <div className='offer_text_2'>
                             <p className='offer_header'>Can’t find the professional you are looking for??</p>
                             <p className='offer_sub_text'>All your payments are protected by a highly secure Escrow account.
@@ -75,7 +120,7 @@ export default function Work() {
                             <img className='asia_tag' src='../../cards.png' />
 
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <Footer />
             </motion.div>

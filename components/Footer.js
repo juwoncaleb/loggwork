@@ -10,7 +10,7 @@ export default function Footer() {
       <div className='flex justify-around log_items'>
         <div className='logTab'>
           <Link href='./'>
-          <img className='ft_logo' src='./footerlogo.png' />
+            <img className='ft_logo' src='./footerlogo.png' />
 
           </Link>
           <div onClick={() => {
@@ -45,7 +45,9 @@ export default function Footer() {
           <Link href='/consumer/articles/blog'>
             <p className='footer_sub'>Blog</p>
           </Link>
-          <p className='footer_sub'>Contact Us</p>
+          <Link href='/professional/contact/'>
+            <p className='footer_sub'>Contact Us</p>
+          </Link>
         </div>
         <div>
           <p className='footer_head'>Loggworks</p>
@@ -53,7 +55,7 @@ export default function Footer() {
             <p className='footer_sub '>About </p>
           </Link>
           <Link href='/career' className='flex  '>
-          <p className='footer_sub'>Careers</p>
+            <p className='footer_sub'>Careers</p>
           </Link>
           <p className='footer_sub'>Partners</p>
           <p className='footer_sub'>Influencer program</p>
