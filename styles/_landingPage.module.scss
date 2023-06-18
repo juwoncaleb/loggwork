@@ -11,6 +11,13 @@ $themegreen: #2FA500;
     z-index: 1;
 }
 
+.rd_text {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+}
+
 .land {
     margin-left: 4%;
     margin-right: 4%;
@@ -804,7 +811,7 @@ $themegreen: #2FA500;
         padding-right: 266px !important;
         border-radius: 15px;
     }
-    
+
     .hero {
         background-image: url('/hero.png');
         background-size: cover;
@@ -816,4 +823,3 @@ $themegreen: #2FA500;
         z-index: 1;
     }
 }
-

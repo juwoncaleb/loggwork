@@ -1,8 +1,18 @@
 import React, { useState } from 'react'
+import { AnimatePresence, motion, stagger, useScroll, useTransform, } from "framer-motion"
+import { useRouter } from 'next/router'
 export default function Signin() {
+    const router = useRouter()
 
     return (
-        <div className='flex justify-between'>
+       <AnimatePresence>
+         <motion.div  initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{
+            duration: 1
+        }}
+        key={router.route} className='flex justify-between'>
             {/* SIGN UP PAGE */}
             <div className='signin_bg'>
                 <img className='fixes_img' src='../../fixes.png' />
@@ -45,6 +55,7 @@ export default function Signin() {
                     <p className='new_accounr'> Already have an account? <span className='no_account'>Log up</span></p>
                 </div>
             </div>
-        </div>
+        </motion.div>
+       </AnimatePresence>
     )
 }

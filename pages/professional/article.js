@@ -1,10 +1,22 @@
 import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer';
-
+import { AnimatePresence, motion, stagger, useScroll, useTransform, } from "framer-motion"
+import { useRouter } from 'next/router'
 export default function Hiring() {
+    const router = useRouter()
+
     return (
-        <div >
+       <AnimatePresence>
+         <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{
+                duration: 1
+            }}
+            key={router.route}
+        >
             {/* <Header /> */}
             <div className='header mb-14'>
                 <div className='flex  mt-4 mb-4'>
@@ -84,7 +96,7 @@ export default function Hiring() {
                         </div>
                         <div className='professiona_post'>
                             <div className='offer_service'>
-                                <p className='offer_your_services'>Can’t find the <br/> professional you are <br/> looking for?? Let the <br/> professional find you.</p>
+                                <p className='offer_your_services'>Can’t find the <br /> professional you are <br /> looking for?? Let the <br /> professional find you.</p>
                                 <p className='offer_your_services_subtext'>Post a job with your price in <br /> mind, then get offers</p>
                                 <div className='cta_professinal'>
                                     <p p className='cta_pro_text'>Post a Job</p>
@@ -96,6 +108,7 @@ export default function Hiring() {
             </div>
             {/* <Footer /> */}
 
-        </div>
+        </motion.div>
+       </AnimatePresence>
     )
 }

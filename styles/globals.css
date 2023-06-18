@@ -270,6 +270,13 @@
   z-index: 1;
 }
 
+.rd_text {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content: center;
+}
+
 .land {
   margin-left: 4%;
   margin-right: 4%;
@@ -2890,6 +2897,13 @@
   text-align: center;
 }
 
+.pro_signin_cta_infor {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
 .pro_signin_cta_verfication {
   font-size: 24px;
   font-weight: 700;
@@ -2907,6 +2921,10 @@
   margin-right: auto;
 }
 
+.tell {
+  color: #4B4B4B;
+}
+
 .pro_signin_input_title {
   text-align: left !important;
   color: #4B4B4B;
@@ -2918,6 +2936,30 @@
   color: #4B4B4B;
   margin-top: 10px;
   margin-right: 28px;
+}
+
+.button_green_pro {
+  background-color: #2FA500;
+  width: 100%;
+  height: 48px;
+  margin-top: 32px;
+  padding: auto;
+  color: white;
+  border-radius: 8px;
+}
+
+.fixes_img {
+  height: 100%;
+}
+
+.button_green_gray {
+  background-color: #2FA500;
+  width: 100%;
+  height: 48px;
+  margin-top: 32px;
+  padding: auto;
+  color: white;
+  border-radius: 8px;
 }
 
 .otp_reminder {

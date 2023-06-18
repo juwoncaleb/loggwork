@@ -43,13 +43,13 @@ export default function Header() {
 
           <div className='flex'>
             <div onClick={() => setOpener(1)} >
-              <Link href='../../professional/LandingPage'>
+              <Link href='/professional/LandingPage'>
                 <p className='users pro'>Professional</p>
               </Link>
               <hr className={opener === 1 ? "green_line_header" : null} />
             </div>
             <div onClick={() => setOpener(2)} >
-              <Link href='../../consumer/Landingpage'>
+              <Link href='/consumer/Landingpage'>
                 <p className='users'>Consumer</p>
                 <hr className={opener === 2 ? "green_line_header" : null} />
               </Link>
@@ -61,11 +61,11 @@ export default function Header() {
           opener === 2 && (
             <div className='sub_header flex justify-between'>
               <div className='flex sub_head_text'>
-                <Link href='./about' className=' '>
+                <Link href='/about' className=' '>
                   <p className='sub_menu_bar'>About </p>
                 </Link>
 
-                <Link href='../consumer/connect' className=' '>
+                <Link href='/consumer/connect' className=' '>
                   <p className='sub_menu_bar'>Connect </p>
                 </Link>
                 <div className='viscible_lane'>
@@ -74,13 +74,13 @@ export default function Header() {
                     <img onClick={handleClick} className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
                   </div>
                   {isVisible && <div className='colort' >
-                    <Link href='../consumer/articles/babysitter' className='flex  head_box'>
+                    <Link href='/consumer/articles/babysitter' className='flex  head_box'>
                       <p className='  mt-2 '>Babysitting </p>
                     </Link>
-                    <Link href='../consumer/hiring/childcare' className='flex head_box'>
+                    <Link href='/consumer/hiring/childcare' className='flex head_box'>
                       <p className='   mt-2'>Childcare </p>
                     </Link>
-                    <Link href='../consumer/articles/plumbing' className='flex head_box'>
+                    <Link href='/consumer/articles/plumbing' className='flex head_box'>
                       <p className='  mt-2 '>Plumbing </p>
                     </Link>
                     <div className='flex head_box'>
@@ -130,13 +130,13 @@ export default function Header() {
                     <img onClick={handleOpen} className='arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
                   </div>
                   {open && <div className='colort sub_co' >
-                    <Link href='../consumer/articles/hiring' className=''>
+                    <Link href='/consumer/hiring/hiring' className=''>
                       <p className=' mt-2'>Hiring Guide </p>
                     </Link>
-                    <Link href='../professional/pricing' className=''>
+                    <Link href='/professional/pricing' className=''>
                       <p className=' mt-2'>Pricing guide </p>
                     </Link>
-                    <Link href='../consumer/articles/blog' className=''>
+                    <Link href='/consumer/articles/blog' className=''>
                       <p className=' mt-2'>Blog </p>
                     </Link>
                     <div className=''>
@@ -287,13 +287,13 @@ export default function Header() {
                     <img onClick={handleOpen} className='arrow small_Arrow' width="50" height="50" src="https://img.icons8.com/ios/50/less-than.png" alt="less-than" />
                   </div>
                   {open && <div className='colort sub_co' >
-                    <Link href='../consumer/articles/hiring' className=''>
+                    <Link href='/consumer/hiring/hiring' className=''>
                       <p className=' mt-2'>Hiring Guide </p>
                     </Link>
-                    <Link href='../professional/pricing' className=''>
+                    <Link href='/professional/pricing' className=''>
                       <p className=' mt-2'>Pricing guide </p>
                     </Link>
-                    <Link href='../consumer/articles/blog' className=''>
+                    <Link href='/consumer/articles/blog' className=''>
                       <p className=' mt-2'>Blog </p>
                     </Link>
                     <div className=''>
