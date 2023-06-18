@@ -36,7 +36,7 @@ export default function Plumbing() {
                     <div className='flex baby justify-center mt-6'>
                         {/* ARTICLE TEXT */}
                         <div className='article_content plumm '>
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -45,28 +45,28 @@ export default function Plumbing() {
                                 Here is a rough guide to some common plumbing repair cost</motion.p>
 
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 0.8,
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 1. Clogged drain: $100-$250 </span></motion.p>
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 0.8,
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 2. Leaky faucet: $100-$200</span> </motion.p>
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 0.8,
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 3. Running toilet: $100-$200 </span></motion.p>
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -74,7 +74,7 @@ export default function Plumbing() {
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 4. Water heater repair or replacement: $500-$1,500</span></motion.p>
 
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -82,19 +82,19 @@ export default function Plumbing() {
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 5. Sewer line repair or replacement: $1,000-$4,000</span> </motion.p>
 
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 0.8,
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 6. Water line repair or replacement: $500-$1,500</span> </motion.p>
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
                                         : 0.8,
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8 mb-14'> 7.Gas line repair or replacement: $500-$1,500</span> </motion.p>
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -107,7 +107,7 @@ export default function Plumbing() {
 
                         {/* ARTICLES ICONS */}
                         <div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -122,7 +122,7 @@ export default function Plumbing() {
                                     <img className='article_icon' src='./../../ri_link.png' />
                                 </div>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -136,7 +136,7 @@ export default function Plumbing() {
                                     </div>
                                 </div>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration

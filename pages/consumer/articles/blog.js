@@ -18,7 +18,7 @@ export default function Blog() {
                 key={router.route} className=''>
                 <Header />
                 <div className='blog_div mt-4'>
-                    <motion.div initial={{ opacity: 0, y: 20 }}
+                    <motion.div initial={{ opacity: 0, y:10 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{
                             type: 'spring', stiffness: 100, damping: 10, duration
@@ -35,7 +35,7 @@ export default function Blog() {
                 </div>
                 <motion.div className='blog_post'>
                     <div className='grid grid-cols-1 md:grid-cols-2 mb-6 gap-4 '>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -51,7 +51,7 @@ export default function Blog() {
                             </div>
                         </motion.div>
                         <div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -67,14 +67,14 @@ export default function Blog() {
                                 </div>
                             </motion.div>
                             <div className='grid grid-cols-2 gap-2 mt-4'>
-                                <motion.div initial={{ opacity: 0, y: 20 }}
+                                <motion.div initial={{ opacity: 0, y:10 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{
                                         type: 'spring', stiffness: 100, damping: 10, duration
                                             : 0.8,
                                     }} className='gluebox '>
                                     <img className='capenter' src='./../../capen.png' />
-                                    <motion.div initial={{ opacity: 0, y: 20 }}
+                                    <motion.div initial={{ opacity: 0, y:10 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{
                                             type: 'spring', stiffness: 100, damping: 10, duration
@@ -87,7 +87,7 @@ export default function Blog() {
                                         <p className='blog_post_text ml-4'>18th Jun, 2023</p>
                                     </motion.div>
                                 </motion.div>
-                                <motion.div initial={{ opacity: 0, y: 20 }}
+                                <motion.div initial={{ opacity: 0, y:10 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{
                                         type: 'spring', stiffness: 100, damping: 10, duration
@@ -106,7 +106,7 @@ export default function Blog() {
 
                         </div>
                     </div>
-                    <motion.center initial={{ opacity: 0, y: 20 }}
+                    <motion.center initial={{ opacity: 0, y:10 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{
                             type: 'spring', stiffness: 100, damping: 10, duration
@@ -115,7 +115,7 @@ export default function Blog() {
                         <p className='blogpost_list mt-12 mb-6'>Past Articles</p>
                     </motion.center>
                     <div className='blog_list grid grid-cols-3 gap-4'>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -133,7 +133,7 @@ export default function Blog() {
                             </div>
                         </motion.div>
 
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -150,7 +150,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -167,7 +167,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -184,7 +184,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -201,7 +201,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -218,7 +218,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -235,7 +235,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -252,7 +252,7 @@ export default function Blog() {
                                 <p className='blog_post_text '>18th Jun, 2023</p>
                             </div>
                         </motion.div>
-                        <motion.div initial={{ opacity: 0, y: 20 }}
+                        <motion.div initial={{ opacity: 0, y:10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
                                 type: 'spring', stiffness: 100, damping: 10, duration
@@ -271,7 +271,7 @@ export default function Blog() {
                         </motion.div>
                     </div>
                 </motion.div>
-                <motion.div initial={{ opacity: 0, y: 20 }}
+                <motion.div initial={{ opacity: 0, y:10 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{
                         type: 'spring', stiffness: 100, damping: 10, duration

@@ -26,66 +26,141 @@ export default function Hiring() {
 
                 </div>
                 <div className='hiring_carfd grid grid-cols-2 md:grid-cols-3 gap-10 header'>
-                    <div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img className='services_img' src='./../../chef.png' />
                         <p className='services_text'>Catereer</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../clo.png' />
                         <p className='services_text'>Laundry service</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../cleaner.png' />
                         <p className='services_text'>Cleaner</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../ent.png' />
                         <p className='services_text'>Entertainer</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../brick.png' />
                         <p className='services_text'>Appliance Repair workers</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../meco.png' />
                         <p className='services_text'>Mobile mechanic</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../mo.png' />
                         <p className='services_text'>Removal Service workers</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../u.png' />
                         <p className='services_text'>Trademen</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../mo.png' />
                         <p className='services_text'>Transport Service worker</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../as.png' />
                         <p className='services_text'>Personal Assistance</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../per.png' />
                         <p className='services_text'>Pet Groomer</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../trash.png' />
                         <p className='services_text'>Recovery Service Worker</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../tutor.png' />
                         <p className='services_text'>Tuttion & class worker</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../health.png' />
                         <p className='services_text'>Health Wellness & Beauty coaches</p>
-                    </div>
-                    <div>
+                    </motion.div>
+                    <motion.div initial={{ opacity: 0, y:10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{
+                            type: 'spring', stiffness: 100, damping: 10, duration
+                                : 0.8,
+                        }} >
                         <img src='./../../repair.png' />
                         <p className='services_text'>Computer & Phone Repair</p>
-                    </div>
+                    </motion.div>
 
                 </div>
                 <Footer />

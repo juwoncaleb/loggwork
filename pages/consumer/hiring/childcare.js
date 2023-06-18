@@ -31,7 +31,7 @@ export default function Childcare() {
                     <div className='blog_post flex justify-center mb-8'>
 
                         <div className='blog_list filter_blog grid grid-cols-3 gap-4 mt-2'>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -47,7 +47,7 @@ export default function Childcare() {
                                 <p className='blog_post_text text-center text-center '>18th Jun, 2023</p>
                             </motion.div>
 
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -63,7 +63,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -78,7 +78,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -93,7 +93,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -108,7 +108,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -123,7 +123,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -138,7 +138,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -153,7 +153,7 @@ export default function Childcare() {
                                 </div>
                                 <p className='blog_post_text text-center '>18th Jun, 2023</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration

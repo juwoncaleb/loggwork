@@ -42,7 +42,7 @@ export default function Babysitter() {
                     <div className='flex baby justify-center mt-6'>
                         {/* ARTICLE TEXT */}
                         <div className='article_content '>
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -51,7 +51,7 @@ export default function Babysitter() {
                                 Here are some tips to help you find the right person for the job:</motion.p>
 
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -61,7 +61,7 @@ export default function Babysitter() {
                                 This can give you peace of mind knowing that the babysitter has the skills and knowledge necessary to handle
                                 any situation that may arise. </motion.p>
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -70,7 +70,7 @@ export default function Babysitter() {
                                 and follow up on those references to make sure the babysitter has a track record of being reliable and responsible.
                                 This can give you an idea of the babysitter's work ethic and the quality of care they provide. </motion.p>
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -79,7 +79,7 @@ export default function Babysitter() {
                                 in areas such as CPR or first aid, which can be helpful in case of an emergency. This can provide an extra layer of protection
                                 for your children and give you added confidence in the babysitter's ability to handle unexpected situations. </motion.p>
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -89,7 +89,7 @@ export default function Babysitter() {
                                 This can help ensure that the babysitter is on the same page as you and can provide the level of care you expect.</motion.p>
 
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -99,7 +99,7 @@ export default function Babysitter() {
                                 case the babysitter is not available. This can help prevent misunderstandings and ensure that everyone is on the same page. </motion.p>
 
 
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -107,7 +107,7 @@ export default function Babysitter() {
                                 }} className='mt-8 key_point'> <span className='aricle_titled_head mt-8'> 6. Conduct an interview</span>: Consider conducting an in-person interview
                                 to get a better sense of the babysitter's personality and suitability for the job.
                                 This can be a good opportunity to ask any questions you may have and get a feel for whether the babysitter is a good fit for your family. </motion.p>
-                            <motion.p initial={{ opacity: 0, y: 20 }}
+                            <motion.p initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -121,7 +121,7 @@ export default function Babysitter() {
 
                         {/* ARTICLES ICONS */}
                         <div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -136,7 +136,7 @@ export default function Babysitter() {
                                     <img className='article_icon' src='./../../ri_link.png' />
                                 </div>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -150,7 +150,7 @@ export default function Babysitter() {
                                     </div>
                                 </div>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 20 }}
+                            <motion.div initial={{ opacity: 0, y:10 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration

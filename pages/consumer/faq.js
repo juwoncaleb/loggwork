@@ -39,7 +39,12 @@ export default function Faq() {
         {/* FAQ & CONSTACT TAB */}
         {
           open === 1 && (
-            <div className='faq_contact header'>
+            <motion.div initial={{ opacity: 0, y:10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: 'spring', stiffness: 100, damping: 10, duration
+                  : 0.8,
+              }} className='faq_contact header'>
               <div>
 
                 <div className='faq_head'>
@@ -303,7 +308,7 @@ export default function Faq() {
                 </div>
               </div>
 
-            </div>
+            </motion.div>
           )
         }
 
@@ -312,7 +317,12 @@ export default function Faq() {
 
         {
           open === 2 && (
-            <div className='form header mt-4'>
+            <motion.div initial={{ opacity: 0, y:10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: 'spring', stiffness: 100, damping: 10, duration
+                  : 0.8,
+              }} className='form header mt-4'>
               <div className='flex justify-between'>
                 <p>First name </p>
                 <p>Last name </p>
@@ -361,7 +371,7 @@ export default function Faq() {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           )
         }
         <Footer />
