@@ -1,3 +1,5 @@
+$themegreen: #2FA500;
+
 .sidebar {
     padding-top: 20px;
     padding-left: 50px;
@@ -8,19 +10,50 @@
     font-size: 18px;
     font-weight: 500;
 }
+.greenlocation{
+    color: $themegreen;
+    font-size: 17px;
+    font-weight: 500;
+}
 
 .location_div_head {
     background-color: white;
     width: 50%;
-    padding-top: 11px;
+    padding-top: 8px;
     padding-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2FA500;
+
+}
+
+.location_div_head_inactive {
+    background-color: rgba(71, 71, 71, 0.13);
+    width: 50%;
+    padding-top: 8px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .ava_div_head {
-    background-color: rgba(0, 0, 139, 0.13);
+    background-color: rgba(71, 71, 71, 0.13);
     width: 50%;
-    padding-top: 11px;
+    padding-top: 8px;
     padding-left: 30px;
+}
+
+.useCurrentlocation {
+    text-decoration: underline $themegreen;
+    color: $themegreen;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.smallLocation {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
 }
 
 .modal_location {
@@ -32,7 +65,14 @@
     background-color: #f5f5f5;
     border: 2px solid #000;
     box-shadow: 24px;
-    padding: 16px;
+    padding: 25px 26px 150px;
+}
+
+.loca_input {
+    background-color: #cccccc88;
+    border: 1px solid gainsboro;
+    height: 48px;
+    width: 100%;
 }
 
 .side_icon {
@@ -42,6 +82,7 @@
 .locationAndAvilHeadee {
     height: 48px;
     background-color: #cccccc88;
+    padding: 5px;
 }
 
 .locaaa {
@@ -52,5 +93,50 @@
 .locoAndAval {
     font-size: 25px;
     font-weight: 500;
+
+
+}
+
+.update_location_button {
+    background-color: #cccccc88;
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.offlineSwitch {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.schedler {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.scheduler_sub_text {
+    color: rgb(116, 111, 111);
+}
+
+.duration_head {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+#myCheckbox {
+    transform: scale(1.5);
+    /* Adjust the scale value as needed */
+}
+
+.duration_input {
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    height: 42px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.daysOfWeek {
+    font-size: 17px;
 
 }
