@@ -6,7 +6,7 @@ export default function Sidebar() {
       <img className='logo mb-12' src='https://ik.imagekit.io/juwoncaleb/lo_wCz74a4lV.webp?updatedAt=1685112934249' />
       <div className='flex home_Sidebar'>
         <img className='side_icon' width="30" height="30" src="https://img.icons8.com/ios/50/home--v1.png" alt="home--v1" />
-        <p>Home</p>
+        <p className=' ho'>Home</p>
       </div>
       <div className='flex home_Sidebar'>
         <img className='side_icon'  width="30" height="25" src="https://img.icons8.com/external-inkubators-glyph-inkubators/25/1A1A1A/external-briefcase-business-inkubators-glyph-inkubators.png" alt="external-briefcase-business-inkubators-glyph-inkubators" />
