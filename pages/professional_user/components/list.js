@@ -8,7 +8,7 @@ export default function List() {
                     {/* IMAGES */}
                     <div className=''>
                         <img className='job_photo_card' src="../l1.png" />
-                        <div className='flex mt-4 '>
+                        <div className='flex mt-6 '>
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
@@ -38,7 +38,7 @@ export default function List() {
                     {/* IMAGES */}
                     <div className=''>
                         <img className='job_photo_card' src="../l2.png" />
-                        <div className='flex mt-4 '>
+                        <div className='flex mt-6 '>
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
@@ -67,7 +67,7 @@ export default function List() {
                     {/* IMAGES */}
                     <div className=''>
                         <img className='job_photo_card' src="../l3.png" />
-                        <div className='flex mt-4 '>
+                        <div className='flex mt-6 '>
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
@@ -96,7 +96,7 @@ export default function List() {
                     {/* IMAGES */}
                     <div className=''>
                         <img className='job_photo_card' src="../l4.png" />
-                        <div className='flex mt-4 '>
+                        <div className='flex mt-6 '>
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
                             <img className='eliip' src='../eli.png' />
